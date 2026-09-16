@@ -23,5 +23,5 @@ Pozn.: Uvedené hodnoty platí pro teplotu 25 °C. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spotřeba při měření se liší v závislosti na zvoleném režimu a frekvenci měření
 
 ### Datasheety a dokumentace
-* [Datasheet VEML7700 (v01)](datasheets/veml7700_v01.pdf)
-* [Datasheet VEML7700 (v02)](datasheets/veml7700_v02.pdf)
+* [Datasheet VEML7700](datasheets/datasheet_veml7700.pdf.pdf)
+* [Application Note VEML7700](datasheets/application_note_veml7700.pdf.pdf)
