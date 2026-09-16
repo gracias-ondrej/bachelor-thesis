@@ -55,4 +55,5 @@ O měření UV záření se stará snímač **AS7331** od společnosti **OSRAM**
 | **Rozhraní** | I²C |
 
 
-### Datasheety a dokumentace
+### Datasheetz a dokumentace
+* [Datasheet AS7331](datasheets/datasheet_as7331.pdf)
