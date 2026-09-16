@@ -18,5 +18,5 @@ Jako senzor intenzity osvětlení bylo vybráno nízkoenergetické čidlo VEML77
 | **Velikost pouzdra** | 6.8 × 2.35 × 3.0 mm |
 | **Cena** | cca 27 Kč |
 
-Pozn.: Uvedené hodnoty platí pro teplotu 25 °C
+Pozn.: Uvedené hodnoty platí pro teplotu 25 °C. <br>
        Spotřeba při měření se liší v závislosti na zvoleném režimu a frekvenci měření
