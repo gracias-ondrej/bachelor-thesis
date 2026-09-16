@@ -1,6 +1,6 @@
 ## **Senzor intenzity osvětlení**
 
-Jako senzor intenzity osvětlení byl vybrán nízkoenergetický snímač **VEML7700** od společnosti **Vishay Semiconductors**. Senzor v sobě integruje fotodiodu, nízkošumový zesilovač a 16bitový A/D převodník, což umožňuje měřit okolní osvětlení s rozlišením až **0.0042 lx** v rozsahu od **0 do 140 000 lx**. Tento rozsah je plně dostačující i pro venkovní měření při dopadu přímého slunečního světla, aniž by docházelo k saturaci snímače. Přenos naměřených dat je poté možný pomocí **I²C** rozhraní.
+Jako senzor intenzity osvětlení byl vybrán nízkoenergetický snímač VEML7700 od společnosti Vishay Semiconductors. Senzor v sobě integruje fotodiodu, nízkošumový zesilovač a 16bitový A/D převodník, což umožňuje měřit okolní osvětlení s rozlišením až 0.0042 lx v rozsahu od 0 do 140 000 lx. Tento rozsah je plně dostačující i pro venkovní měření při dopadu přímého slunečního světla, aniž by docházelo k saturaci snímače. Přenos naměřených dat je poté možný pomocí I²C rozhraní.
 
 ### Základní specifikace senzoru VEML7700
 
@@ -31,7 +31,7 @@ Pozn.: Uvedené hodnoty platí pro teplotu 25 °C. <br>
 
 ## **Senzor UV záření**
 
-O měření UV záření se stará snímač **AS7331** od společnosti **OSRAM**. Měří tři různé složky ultrafialového záření UVA, UVB a UVC, každé pomocí své diody. Součástí obvodu je integrovaný 24bitový A/D převodník, který zajišťuje vysokou citlivost a dynamický rozsah, aby senzor dokázal detekovat i nepatrné změny záření. Přenos naměřených dat je zajištěn **I²C** rozhraním s možností volby mezi čtyřmi adresami zařízení, což umožňuje připojení až čtyř senzorů AS7331 na jednu společnou sběrnici.
+O měření UV záření se stará snímač AS7331 od společnosti OSRAM. Měří tři různé složky ultrafialového záření UVA, UVB a UVC, každé pomocí své diody. Součástí obvodu je integrovaný 24bitový A/D převodník, který zajišťuje vysokou citlivost a dynamický rozsah, aby senzor dokázal detekovat i nepatrné změny záření. Přenos naměřených dat je zajištěn I²C rozhraním s možností volby mezi čtyřmi adresami zařízení, což umožňuje připojení až čtyř senzorů AS7331 na jednu společnou sběrnici.
 
 ### Základní specifikace senzoru AS7331 
 
@@ -54,6 +54,8 @@ O měření UV záření se stará snímač **AS7331** od společnosti **OSRAM**
 | **Velikost pouzdra** | 6.8 × 2.35 × 3.0 mm |
 | **Rozhraní** | I²C |
 
+Pozn.: Citlivost a rozsah u jednotlivých UV složek platí pro `GAIN = 1x`. Pouze v tomto režimu dosahuje měření dostatečného rozsahu pro venkovní provoz.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Uvedené hodnoty platí pro teplotu 25 °C. 
 
 ### Datasheetz a dokumentace
 * [Datasheet AS7331](datasheets/datasheet_as7331.pdf)
