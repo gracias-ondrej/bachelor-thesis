@@ -4,8 +4,8 @@ Jako senzor intenzity osvětlení byl vybrán nízkoenergetický snímač **VEML
 
 ### Základní specifikace senzoru VEML7700
 
-| :--- | :--- |
 | **Parametr** | VEML7700 |
+| :--- | :--- |
 | **Výrobce** | Vishay Semiconductors |
 | **Adresa zařízení** | `0x10` |
 | **Velikost výstupních dat** | 16 bitů |
@@ -35,19 +35,19 @@ O měření UV záření se stará snímač **AS7331** od společnosti **OSRAM**
 
 ### Základní specifikace senzoru AS7331 
 
-| :--- | :--- |
 | **Parametr**| AS7331 |
+| :--- | :--- |
 | **Výrobce** | OSRAM |
 | **Adresa zařízení** | `0x74` `0x75` `0x76` `0x77` |
 | **Velikost výstupních dat** | 24 bitů |
 | **Napájecí napětí** | 2.7 až 3.6 V |
 | **Měřené složky** | UVA, UVB, UVC |
-| **Měřicí rozsah UVA** | $3,49 \cdot 10^5 \text{ µW/cm}^2$ |
-| **Citlivost UVA** | $0,188 \text{ counts}/(\text{µW/cm}^2)$ |
-| **Měřicí rozsah UVB** | $3,86 \cdot 10^5 \text{ µW/cm}^2$ |
-| **Citlivost UVB** | $0,170 \text{ counts}/(\text{µW/cm}^2)$ |
-| **Měřicí rozsah UVC** | $1,69 \cdot 10^5 \text{ µW/cm}^2$ |
-| **Citlivost UVC** | $0,388 \text{ counts}/(\text{µW/cm}^2)$ |
+| **Měřicí rozsah UVA** | 3,49 × 10⁵ µW/cm² |
+| **Citlivost UVA** | 0,188 counts/(µW/cm²) |
+| **Měřicí rozsah UVB** | 3,86 × 10⁵ µW/cm² |
+| **Citlivost UVB** | 0,170 counts/(µW/cm²) |
+| **Měřicí rozsah UVC** | 1,69 × 10⁵ µW/cm² |
+| **Citlivost UVC** | 0,388 counts/(µW/cm²) |
 | **Spotřeba při vypnutí** | 1 µA |
 | **Spotřeba při měření** | 2 mA |
 | **Pracovní teplota** | -40 °C až +85 °C |
