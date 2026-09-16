@@ -54,7 +54,7 @@ O měření UV záření se stará snímač AS7331 od společnosti OSRAM. Měř�
 | **Velikost pouzdra** | 6.8 × 2.35 × 3.0 mm |
 | **Rozhraní** | I²C |
 
-Pozn.: Citlivost a rozsah u jednotlivých UV složek platí pro `GAIN = 1x`. Pouze v tomto režimu dosahuje měření dostatečného rozsahu pro venkovní provoz.
+Pozn.: Citlivost a rozsah u jednotlivých UV složek platí pro `GAIN = 1x`. Pouze v tomto režimu dosahuje měření dostatečného rozsahu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pro venkovní provoz. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Uvedené hodnoty platí pro teplotu 25 °C. 
 
 ### Datasheetz a dokumentace
