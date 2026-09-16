@@ -8,6 +8,7 @@ Jako senzor intenzity osvětlení bylo vybráno nízkoenergetické čidlo VEML77
 | :--- | :--- |
 | **Výrobce** | Vishay Semiconductors |
 | **Adresa zařízení** | `0x10` |
+| **Velikost výstupních dat** | 16 bitů |
 | **Napájecí napětí** | 2.5 až 3.6 V |
 | **Měřicí rozsah** | 0 až 140 000 lx |
 | **Měřicí rozlišení** | až 0.0042 lx / krok |
@@ -19,4 +20,4 @@ Jako senzor intenzity osvětlení bylo vybráno nízkoenergetické čidlo VEML77
 | **Cena** | cca 27 Kč |
 
 Pozn.: Uvedené hodnoty platí pro teplotu 25 °C. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spotřeba při měření se liší v závislosti na zvoleném režimu a frekvenci měření
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spotřeba při měření se liší v závislosti na zvoleném režimu a frekvenci měření
