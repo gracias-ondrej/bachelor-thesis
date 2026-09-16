@@ -19,4 +19,4 @@ Jako senzor intenzity osvětlení bylo vybráno nízkoenergetické čidlo VEML77
 | **Cena** | cca 27 Kč |
 
 Pozn.: Uvedené hodnoty platí pro teplotu 25 °C. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spotřeba při měření se liší v závislosti na zvoleném režimu a frekvenci měření
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spotřeba při měření se liší v závislosti na zvoleném režimu a frekvenci měření
