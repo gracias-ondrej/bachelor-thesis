@@ -26,6 +26,8 @@ Pozn.: Uvedené hodnoty platí pro teplotu 25 °C. <br>
 * [Datasheet VEML7700](datasheets/datasheet_veml7700.pdf)
 * [Application Note VEML7700](datasheets/application_note_veml7700.pdf)
 
+<br>
+<br>
 
 ## **Senzor UV záření**
 
