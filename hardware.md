@@ -1,7 +1,5 @@
 ## **Senzor intenzity osvětlení**
 
-Jako senzor intenzity osvětlení byl vybrán nízkoenergetický snímač VEML7700 od společnosti Vishay Semiconductors. Senzor v sobě integruje fotodiodu, nízkošumový zesilovač a 16bitový A/D převodník, což umožňuje měřit okolní osvětlení s rozlišením až 0.0042 lx v rozsahu od 0 do 140 000 lx. Tento rozsah je plně dostačující i pro venkovní měření při dopadu přímého slunečního světla, aniž by docházelo k saturaci snímače. Přenos naměřených dat je poté možný pomocí I²C rozhraní.
-
 ### Základní specifikace senzoru VEML7700
 
 | **Parametr** | VEML7700 |
@@ -19,43 +17,13 @@ Jako senzor intenzity osvětlení byl vybrán nízkoenergetický snímač VEML77
 | **Velikost pouzdra** | 6.8 × 2.35 × 3.0 mm |
 | **Cena** | cca 27 Kč |
 
-Pozn.: Uvedené hodnoty platí pro teplotu 25 °C. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spotřeba při měření se liší v závislosti na zvoleném režimu a frekvenci měření
+> **Poznámky:** 
+> * Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C.
+> * Spotřeba při měření se liší v závislosti na zvoleném úsporném režimu (PSM) a frekvenci měření.
 
-### Datasheety a dokumentace
+### Související dokumentace
 * [Datasheet VEML7700](datasheets/datasheet_veml7700.pdf)
 * [Application Note VEML7700](datasheets/application_note_veml7700.pdf)
 
 <br>
 <br>
-
-## **Senzor UV záření**
-
-O měření UV záření se stará snímač AS7331 od společnosti OSRAM. Měří tři různé složky ultrafialového záření UVA, UVB a UVC, každé pomocí své diody. Součástí obvodu je integrovaný 24bitový A/D převodník, který zajišťuje vysokou citlivost a dynamický rozsah, aby senzor dokázal detekovat i nepatrné změny záření. Přenos naměřených dat je zajištěn I²C rozhraním s možností volby mezi čtyřmi adresami zařízení, což umožňuje připojení až čtyř senzorů AS7331 na jednu společnou sběrnici.
-
-### Základní specifikace senzoru AS7331 
-
-| **Parametr**| AS7331 |
-| :--- | :--- |
-| **Výrobce** | OSRAM |
-| **Adresa zařízení** | `0x74` `0x75` `0x76` `0x77` |
-| **Velikost výstupních dat** | 24 bitů |
-| **Napájecí napětí** | 2.7 až 3.6 V |
-| **Měřené složky** | UVA, UVB, UVC |
-| **Měřicí rozsah UVA** | 3,49 × 10⁵ µW/cm² |
-| **Citlivost UVA** | 0,188 counts/(µW/cm²) |
-| **Měřicí rozsah UVB** | 3,86 × 10⁵ µW/cm² |
-| **Citlivost UVB** | 0,170 counts/(µW/cm²) |
-| **Měřicí rozsah UVC** | 1,69 × 10⁵ µW/cm² |
-| **Citlivost UVC** | 0,388 counts/(µW/cm²) |
-| **Spotřeba při vypnutí** | 1 µA |
-| **Spotřeba při měření** | 2 mA |
-| **Pracovní teplota** | -40 °C až +85 °C |
-| **Velikost pouzdra** | 6.8 × 2.35 × 3.0 mm |
-| **Rozhraní** | I²C |
-
-Pozn.: Uvedené hodnoty platí pro teplotu 25 °C.  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Citlivost a rozsah u jednotlivých UV složek platí pro `GAIN = 1x`. Pouze v tomto režimu dosahuje měření dostatečného rozsahu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pro venkovní provoz.
-
-### Datasheetz a dokumentace
-* [Datasheet AS7331](datasheets/datasheet_as7331.pdf)
