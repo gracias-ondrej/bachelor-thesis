@@ -17,12 +17,12 @@
 | **Velikost pouzdra** | 6.8 × 2.35 × 3.0 mm |
 | **Cena** | cca 27 Kč |
 
-> **Poznámky:** 
->  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C.
+> **Poznámky:** <br>
+>  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C. <br>
 >  Spotřeba při měření se liší v závislosti na zvoleném úsporném režimu (PSM) a frekvenci měření.
 
-> **Související dokumentace**
-> [Datasheet VEML7700](datasheets/datasheet_veml7700.pdf)
+> **Související dokumentace** <br>
+> [Datasheet VEML7700](datasheets/datasheet_veml7700.pdf) <br>
 > [Application Note VEML7700](datasheets/application_note_veml7700.pdf)
 
 <br>
