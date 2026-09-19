@@ -35,7 +35,7 @@
 | **Parametr**| AS7331 |
 | :--- | :--- |
 | **Výrobce** | ams OSRAM |
-| **Adresa zařízení** | `0x74` `0x75` `0x76` `0x77` |
+| **Adresa zařízení** | `0x74`,`0x75`,`0x76`,`0x77` |
 | **Velikost výstupních dat** | 16 bitů |
 | **Napájecí napětí** | 2.7 až 3.6 V |
 | **Měřené složky** | UVA, UVB, UVC |
@@ -55,6 +55,6 @@
 
 > **Poznámky:** <br>
 >  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C. <br>
->  Hodnoty citlivosti a měřicího rozsahu jsou uvedeny pro konfiguraci 'GAIN = 1x'. Toto minimální zesílení poskytuje maximální dynamický rozsah, který je nezbytný pro spolehlivé měření ve venkovním prostředí.
+>  Hodnoty citlivosti a měřicího rozsahu jsou uvedeny pro konfiguraci GAIN = 1x. Toto minimální zesílení poskytuje maximální dynamický rozsah, který je nezbytný pro spolehlivé měření ve venkovním prostředí.
 ### **Související dokumentace** <br>
 * [Datasheet AS7331](datasheets/datasheet_as7331.pdf)
