@@ -93,6 +93,6 @@
 
 ### **Související dokumentace** <br>
 * [Datasheet SHT40](datasheets/datasheet_sht40.pdf)
-* [Application Note SHT40](datasheets/application_note_veml7700.pdf)
-* [Testing Note SHT40](datasheets/testing_note_veml7700.pdf) 
+* [Application Note SHT40](datasheets/application_note_sht40.pdf)
+* [Testing Note SHT40](datasheets/testing_note_sht40.pdf) 
 
