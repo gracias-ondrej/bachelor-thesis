@@ -22,8 +22,8 @@
 >  Spotřeba při měření se liší v závislosti na zvoleném úsporném režimu (PSM) a frekvenci měření.
 
 **Související dokumentace** <br>
-[Datasheet VEML7700](datasheets/datasheet_veml7700.pdf) <br>
-[Application Note VEML7700](datasheets/application_note_veml7700.pdf)
+* [Datasheet VEML7700](datasheets/datasheet_veml7700.pdf) <br>
+* [Application Note VEML7700](datasheets/application_note_veml7700.pdf)
 
 <br>
 <br>
