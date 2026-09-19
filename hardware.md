@@ -94,5 +94,39 @@
 ### **Související dokumentace** <br>
 * [Datasheet SHT40](datasheets/datasheet_sht40.pdf)
 * [Application Note SHT40](datasheets/application_note_sht40.pdf)
+
+<br>
+<br>
+
+
+## Senzor tlaku a teploty
+
+### Základní specifikace senzoru BMP390
+
+| **Parametr**| BMP390 |
+| :--- | :--- |
+| **Výrobce** | BOSCH |
+| **Adresa zařízení** | `0x77` |
+| **Velikost výstupních dat** | 48 bitů|
+| **Napájecí napětí** |  1.65 až 3.6 V |
+| **Spotřeba při vypnutí** | až 1.5 µA|
+| **Spotřeba při měření teploty** | až 320 µA |
+| **Spotřeba při měření tlaku** | až 730 µA |
+| **Měřicí rozsah teploty** | -40 až +85 °C|
+| **Měřicí rozlišení teploty** | 0.00015 °C|
+| **Přesnost měření teploty** | ±0.5 °C|
+| **Měřicí rozsah tlaku** | -300 až 1250 hPa|
+| **Měřicí rozlišení tlaku** | 0.085 Pa|
+| **Přesnost měření tlaku** | ±0.33 hPa|
+| **Pracovní teplota** | -40 °C až +85 °C |
+| **Velikost pouzdra** | 2.0 x 2.0 x 0.75 mm |
+| **Rozhraní** | I²C, SPI |
+| **Cena** |  |
+
+> **Poznámky:** <br>
+>  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecí napětí 3.3V. <br>
+
+### **Související dokumentace** <br>
+* [Datasheet BMP390](datasheets/datasheet_bmp390.pdf) 
 * [Testing Note SHT40](datasheets/testing_note_sht40.pdf) 
 
