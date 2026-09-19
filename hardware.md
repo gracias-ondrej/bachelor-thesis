@@ -128,5 +128,10 @@
 
 ### **Související dokumentace** <br>
 * [Datasheet BMP390](datasheets/datasheet_bmp390.pdf) 
-* [Testing Note SHT40](datasheets/testing_note_sht40.pdf) 
+
+
+
+
+
+* 
 
