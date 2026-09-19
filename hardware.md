@@ -115,7 +115,7 @@
 | **Měřicí rozsah teploty** | -40 až +85 °C|
 | **Měřicí rozlišení teploty** | 0.00015 °C|
 | **Přesnost měření teploty** | ±0.5 °C|
-| **Měřicí rozsah tlaku** | -300 až 1250 hPa|
+| **Měřicí rozsah tlaku** | 300 až 1250 hPa|
 | **Měřicí rozlišení tlaku** | 0.085 Pa|
 | **Přesnost měření tlaku** | ±0.33 hPa|
 | **Pracovní teplota** | -40 °C až +85 °C |
