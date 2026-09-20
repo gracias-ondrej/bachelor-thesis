@@ -21,7 +21,7 @@
 
 > **Poznámky:** <br>
 >  [1] Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecím napětím 3.3V. <br>
->  [2] Při venkovním použití a vystavení přímému slunci je pro zamezení saturace (přetečení hodnot) nezbytné nastavení zesílení na hodnotu ALS gain x 1/8, přičemž se při zvoleném integračním čase 100 ms sníží na hodnotu 0.5376 lx.<br>
+>  [2] [2] Při venkovním použití a vystavení přímému slunci je pro zamezení saturace zvoleno nastavení zesílení na hodnotu ALS gain x 1/8 a současně integrační čas 100 ms, přičemž výsledné rozlišení odpovídá hodnotě 0.5376 lx.<br>
 >  [3] Režim úspory energie (PSM) je deaktivován (PSM_EN = 0) za účelem zajištění okamžité odezvy a plynulého měření.<br>
 >  [4] Vypnutí a zapnutí senzoru je ovládáno pomocí bitu ALS_SD.<br>
 >  [5] Při probuzení ze stavu vypnutí je nutné před prvním čtením dat dodržet čekací dobu minimálně 2.5 ms pro ustálení vnitřního oscilátoru.
@@ -32,7 +32,7 @@
 
 > **Poznámky:** <br>
 >  [1] Doporučené hodnoty pull-up rezistorů (R1 a R2 na liniích SDA a SCL) jsou 2.2 kΩ až 4.7 kΩ (minimálně však > 1 kΩ).<br>
->  [2] Senzor je vysoce odolný vůči rušení a proto je dostačující ořipojit malý kondenzátor na napájecím pinů.
+>  [2] Senzor je vysoce odolný vůči rušení a proto je dostačující připojit malý kondenzátor na napájecím pinů.
 
 ### **Související dokumentace** <br>
 * [Datasheet VEML7700](datasheets/datasheet_veml7700.pdf) <br>
