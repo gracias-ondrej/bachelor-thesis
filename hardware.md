@@ -68,11 +68,14 @@
 | **Cena** |  |
 
 > **Poznámky:** <br>
->  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecím napětím 3.3V. <br>
->  Hodnoty citlivosti a měřicího rozsahu jsou uvedeny pro konfiguraci GAIN = 1x. Toto minimální zesílení poskytuje maximální dynamický rozsah, který je nezbytný pro spolehlivé měření ve venkovním prostředí.
+>  [1] Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecím napětím 3.3V. <br>
+>  [2] Hodnoty citlivosti a měřicího rozsahu jsou uvedeny pro konfiguraci GAIN = 1x. Toto minimální zesílení poskytuje maximální dynamický rozsah, který je nezbytný pro spolehlivé měření ve venkovním prostředí.
 
 ### **Doporučené zapojení senzoru** <br>
 ![Doporučené zapojení senzoru AS7331](images/doporucene_zapojeni_as7331.png)
+
+> **Poznámky:** <br>
+>  [1] Minimální hodnota pull-up rezistorů musí být >= 820 Ω.
 
 ### **Související dokumentace** <br>
 * [Datasheet AS7331](datasheets/datasheet_as7331.pdf) <br>
