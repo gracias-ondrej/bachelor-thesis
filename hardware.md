@@ -2,7 +2,7 @@
 
 ![Náhledový obrázek senzoru VEML7700](images/image_veml7700.png)
 
-### Základní specifikace senzoru VEML7700
+### Základní specifikace senzoru VEML7700 <sup>[1]</sup>
 
 | **Parametr** | VEML7700 |
 | :--- | :--- |
@@ -10,18 +10,19 @@
 | **Adresa zařízení** | `0x10` |
 | **Velikost výstupních dat** | 16 bitů |
 | **Napájecí napětí** | 2.5 až 3.6 V |
-| **Měřicí rozsah** | 0 až 140 000 lx |
-| **Měřicí rozlišení** | až 0.0042 lx |
+| **Pracovní teplota** | -25 °C až +85 °C |
 | **Spotřeba při vypnutí** | až 0.5 µA |
 | **Spotřeba při měření** | až 45 µA |
-| **Pracovní teplota** | -25 °C až +85 °C |
+| **Měřicí rozsah** | 0 až 140 000 lx |
+| **Měřicí rozlišení** | až 0.0042 lx | <sup>[2][3]</sup>
 | **Rozhraní** | I²C |
 | **Velikost pouzdra** | 6.8 × 2.35 × 3.0 mm |
 | **Cena** |  |
 
 > **Poznámky:** <br>
->  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecím napětím 3.3V. <br>
->  Spotřeba při měření se liší v závislosti na zvoleném úsporném režimu (PSM) a frekvenci měření.
+>  [1] Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecím napětím 3.3V. <br>
+>  [2] Při venkovním použití a vystavení přímému slunci je pro zamezení saturace (přetečení hodnot) nezbytné nastavení zesílení na hodnotu ALS gain x 1/8, přičemž se rozlišení sníží na hodnotu 0.0672 lx <sup>[3]</sup>
+>  [3] Hodnoty jsou uvedeny pro zvolený integrační čas 800 ms
 
 ### **Související dokumentace** <br>
 * [Datasheet VEML7700](datasheets/datasheet_veml7700.pdf) <br>
@@ -29,6 +30,22 @@
 
 <br>
 <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Senzor UV záření
 
