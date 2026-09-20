@@ -1,5 +1,7 @@
 ## Senzor intenzity osvětlení
 
+![Náhledový obrázek senzoru VEML7700](images/image_veml7700.png)
+
 ### Základní specifikace senzoru VEML7700
 
 | **Parametr** | VEML7700 |
