@@ -2,7 +2,7 @@
 
 ![Náhledový obrázek senzoru VEML7700](images/image_veml7700.png)
 
-### Základní specifikace senzoru VEML7700 <sup>[1]</sup>
+### Základní specifikace senzoru VEML7700
 
 | **Parametr** | VEML7700 |
 | :--- | :--- |
@@ -14,20 +14,25 @@
 | **Spotřeba při vypnutí** | až 0.5 µA |
 | **Spotřeba při měření** | až 45 µA |
 | **Měřicí rozsah** | 0 až 140 000 lx |
-| **Měřicí rozlišení** | až 0.0042 lx <sup>[2][3]</sup> |
+| **Měřicí rozlišení** | až 0.0042 lx |
 | **Rozhraní** | I²C |
 | **Velikost pouzdra** | 6.8 × 2.35 × 3.0 mm |
 | **Cena** |  |
 
 > **Poznámky:** <br>
 >  [1] Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecím napětím 3.3V. <br>
->  [2] Při venkovním použití a vystavení přímému slunci je pro zamezení saturace (přetečení hodnot) nezbytné nastavení zesílení na hodnotu ALS gain x 1/8, přičemž se rozlišení sníží na hodnotu 0.0672 lx. <sup>[3]</sup> <br>
->  [3] Hodnoty jsou uvedeny pro zvolený integrační čas 800 ms. <br>
->  [4] Při probuzení ze stavu vypnutí je nutné před prvním čtením dat dodržet čekací dobu minimálně 2.5 ms pro ustálení vnitřního oscilátoru.
+>  [2] Při venkovním použití a vystavení přímému slunci je pro zamezení saturace (přetečení hodnot) nezbytné nastavení zesílení na hodnotu ALS gain x 1/8, přičemž se při zvoleném integračním čase 100 ms sníží na hodnotu 0.5376 lx.<br>
+>  [3] Režim úspory energie (PSM) je deaktivován (PSM_EN = 0) za účelem zajištění okamžité odezvy a plynulého měření.<br>
+>  [4] Vypnutí a zapnutí senzoru je ovládáno pomocí bitu ALS_SD.<br>
+>  [5] Při probuzení ze stavu vypnutí je nutné před prvním čtením dat dodržet čekací dobu minimálně 2.5 ms pro ustálení vnitřního oscilátoru.
 
-### **Doporučené zapojeni senzoru** <br>
+### **Doporučené zapojení senzoru** <br>
 
 ![Doporučené zapojení senzoru VEML7700](images/doporucene_zapojeni_veml7700.png)
+
+> **Poznámky:** <br>
+>  [1] Doporučené hodnoty pull-up rezistorů ($R_1$ a $R_2$ na liniích SDA a SCL) jsou 2.2 k$\Omega$ až 4.7 k$\Omega$ (minimálně však > 1 k$\Omega$).
+>  [2] Senzor je vysoce odolný vůči rušení a proto je dostačující ořipojit malý kondenzátor na napájecím pinů.
 
 ### **Související dokumentace** <br>
 * [Datasheet VEML7700](datasheets/datasheet_veml7700.pdf) <br>
