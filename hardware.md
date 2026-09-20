@@ -75,7 +75,7 @@
 ![Doporučené zapojení senzoru AS7331](images/doporucene_zapojeni_as7331.png)
 
 > **Poznámky:** <br>
->  [1] Minimální hodnota pull-up rezistorů musí být >= 820 Ω.
+>  [1] Hodnota pull-up rezistorů musí být >= 820 Ω.
 
 ### **Související dokumentace** <br>
 * [Datasheet AS7331](datasheets/datasheet_as7331.pdf) <br>
@@ -109,15 +109,21 @@
 | **Cena** |  |
 
 > **Poznámky:** <br>
->  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecím napětím 3.3V. <br>
->  Senzor je vybaven integrovaným topným tělískem s volitelným výkonem (až 200 mW) pro odpaření zkondenzované vlhkosti.
->  Toto topné těleso není zohledněno v hodnotách uvedených v tabulce základních specifikací senzoru.
+>  [1] Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecím napětím 3.3V. <br>
+>  [2] Senzor je vybaven integrovaným topným tělískem s volitelným výkonem (až 200 mW) pro odpaření zkondenzované vlhkosti.
+>  [3] Toto topné těleso není zohledněno v hodnotách uvedených v tabulce základních specifikací senzoru.
+
+
+### **Doporučené zapojení senzoru** <br>
+![Doporučené zapojení senzoru SHT40](images/doporucene_zapojeni_sht40.png)
+
+> **Poznámky:** <br>
+>  [1] Hodnota pull-up rezistorů musí být >= 820 Ω.
 
 ### **Související dokumentace** <br>
 * [Datasheet SHT40](datasheets/datasheet_sht40.pdf)
 * [Application Note SHT40](datasheets/application_note_sht40.pdf)
 
-<br>
 <br>
 
 ## Senzor tlaku
@@ -148,6 +154,12 @@
 
 > **Poznámky:** <br>
 >  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecí napětí 3.3 V. <br>
+
+### **Doporučené zapojení senzoru** <br>
+![Doporučené zapojení senzoru BMP390](images/doporucene_zapojeni_bmp390.png)
+
+> **Poznámky:** <br>
+>  [1] Doporučená hodnota pull-up rezistorů je 4.7 kΩ.
 
 ### **Související dokumentace** <br>
 * [Datasheet BMP390](datasheets/datasheet_bmp390.pdf) 
@@ -181,6 +193,10 @@
 >  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecí napětí 2.5 V. <br>
 >  Senzor navíc obsahuje zabudovaný teplotní snímač sloužící k teplotní kompenzaci v okolí samotného magnetometru
 
+### **Doporučené zapojení senzoru** <br>
+> **Poznámky:** <br>
+>  [1] Doporučené zapojení senzoru ani hodnoty pull up rezistorů nejsou uvedeny výrobcem.
+
 ### **Související dokumentace** <br>
 * [Datasheet LIS2MDL](datasheets/datasheet_lis2mdl.pdf) 
 
@@ -211,14 +227,22 @@
 | **Rozhraní** | I²C |
 | **Cena** |  |
 
-
 > **Poznámky:** <br>
 >  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C, napájecí napětí 3.3 V, vlhkost vzduchu 50 % a tlak 1013 mbar. <br>
 >  Krátkodobé proudové špičky při měření dosahují až 190 mA
 >  Senzor navíc obsahuje zabudovaný snímač teploty a vlhkosti sloužící ke kompenzaci vlhkosti a teploty v okolí samotného magnetometru
 
+### **Doporučené zapojení senzoru** <br>
+![Doporučené zapojení senzoru SEN62](images/doporucene_zapojeni_sen62.png)
+
+> **Poznámky:** <br>
+>  [1] Doporučená hodnota pull-up rezistorů je 10 kΩ.
+
+### **Související dokumentace** <br>
+* [Datasheet SEN62](datasheets/datasheet_sen62.pdf)
+* 
 <br>
-<br>
+
 
 ## Senzor rychlosti větru
 
