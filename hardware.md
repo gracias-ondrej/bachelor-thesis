@@ -189,6 +189,46 @@
 >  Krátkodobé proudové špičky při měření dosahují až 190 mA
 >  Senzor navíc obsahuje zabudovaný snímač teploty a vlhkosti sloužící ke kompenzaci vlhkosti a teploty v okolí samotného magnetometru
 
+<br>
+<br>
+
+## Senzor rychlosti větru
+
+### Základní specifikace senzoru WH-SP-WS01
+
+| **Parametr**| WH-SP-WS01 |
+| :--- | :--- |
+| **Měřicí rozsah** | 0 – 160km/h  |
+| **Přesnost** | ± 1m/s v rozsahu do 10m/sm |
+| **Přesnost** | ± 10% v rozsahu nad 10m/s |
+| **Rozhraní** | RJ12 |
+| **Velikost** | |
+| **Cena** |  |
+
+<br>
+<br>
+
+## Senzor směru větru
+
+<br>
+<br>
+
+## Senzor srážek
+
+### Základní specifikace senzoru MS-WH-SP-RG
+
+| **Parametr**| MS-WH-SP-RG |
+| :--- | :--- |
+| **Měřicí rozsah** | 0 – 9999mm |
+| **Přesnost** | 10% |
+| **Rozlišení** | 0,3mm v rozsahu do 1000mm |
+| **Rozlišení** | 1mm v rozsahu nad 1000mm |
+| **Rozhraní** | RJ12 |
+| **Velikost** | |
+| **Cena** |  |
+
+
+
 
 ### **Související dokumentace** <br>
 * [Datasheet SEN62](datasheets/datasheet_sen62.pdf) 
