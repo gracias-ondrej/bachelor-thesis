@@ -31,7 +31,7 @@
 ![Doporučené zapojení senzoru VEML7700](images/doporucene_zapojeni_veml7700.png)
 
 > **Poznámky:** <br>
->  [1] Doporučené hodnoty pull-up rezistorů ($R_1$ a $R_2$ na liniích SDA a SCL) jsou 2.2 k$\Omega$ až 4.7 k$\Omega$ (minimálně však > 1 k$\Omega$).
+>  [1] Doporučené hodnoty pull-up rezistorů (R1 a R2 na liniích SDA a SCL) jsou 2.2 kΩ až 4.7 kΩ (minimálně však > 1 kΩ).
 >  [2] Senzor je vysoce odolný vůči rušení a proto je dostačující ořipojit malý kondenzátor na napájecím pinů.
 
 ### **Související dokumentace** <br>
