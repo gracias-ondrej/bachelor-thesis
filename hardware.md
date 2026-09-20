@@ -98,7 +98,7 @@
 <br>
 <br>
 
-## Senzor tlaku a teploty
+## Senzor tlaku
 
 ### Základní specifikace senzoru BMP390
 
@@ -153,7 +153,42 @@
 
 > **Poznámky:** <br>
 >  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecí napětí 2.5 V. <br>
->  Senzor navíc obsahuje zabudovaný teplotní snímač sloužící k teplotní kompenzaci samotného magnetometru
+>  Senzor navíc obsahuje zabudovaný teplotní snímač sloužící k teplotní kompenzaci v okolí samotného magnetometru
 
 ### **Související dokumentace** <br>
 * [Datasheet LIS2MDL](datasheets/datasheet_lis2mdl.pdf) 
+
+<br>
+<br>
+
+## Senzor prachových částic
+
+### Základní specifikace senzoru SEN62
+
+| **Parametr**| SEN62 |
+| :--- | :--- |
+| **Adresa zařízení** | `0x6B` |
+| **Velikost výstupních dat** | 144 bitů|
+| **Napájecí napětí** |  3.15 až 3.6 V |
+| **Pracovní teplota** | -10 °C až +60 °C |
+| **Spotřeba při čekání** | 3.3 mA |
+| **Spotřeba při měření** | 90 mA |
+| **Měřené složky** | PM1, PM2.5, PM4, PM10 |
+| **Měřicí rozsah** | 0 až 1000 μg/m3 |
+| **Přesnost PM1 a PM2.5 (0 až 100 µg/m³)** | ±(5 µg/m³ + 5 % z naměřené hodnoty) |
+| **Přesnost PM1 a PM2.5 (100 až 1000 µg/m³)** | ±10 % z naměřené hodnoty |
+| **Přesnost PM4 a PM10 (0 až 100 µg/m³)** | ±25 µg/m³ |
+| **Přesnost PM4 a PM10 (100 až 1000 µg/m³)** | ±25 % z naměřené hodnoty |
+| **Velikost pouzdra** | 55.2 × 29.9 × 19.2 mm |
+| **Rozhraní** | I²C |
+| **Cena** |  |
+
+
+> **Poznámky:** <br>
+>  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C, napájecí napětí 3.3 V, vlhkost vzduchu 50 % a tlak 1013 mbar. <br>
+>  Krátkodobé proudové špičky při měření dosahují až 190 mA
+>  Senzor navíc obsahuje zabudovaný snímač teploty a vlhkosti sloužící ke kompenzaci vlhkosti a teploty v okolí samotného magnetometru
+
+
+### **Související dokumentace** <br>
+* [Datasheet SEN62](datasheets/datasheet_sen62.pdf) 
