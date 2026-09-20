@@ -72,6 +72,7 @@
 >  Hodnoty citlivosti a měřicího rozsahu jsou uvedeny pro konfiguraci GAIN = 1x. Toto minimální zesílení poskytuje maximální dynamický rozsah, který je nezbytný pro spolehlivé měření ve venkovním prostředí.
 
 ### **Doporučené zapojení senzoru** <br>
+![Doporučené zapojení senzoru AS7331](images/doporucene_zapojeni_as7331.png)
 
 ### **Související dokumentace** <br>
 * [Datasheet AS7331](datasheets/datasheet_as7331.pdf) <br>
