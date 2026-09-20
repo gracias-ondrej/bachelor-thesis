@@ -10,8 +10,8 @@
 | **Napájecí napětí** | 2.5 až 3.6 V |
 | **Měřicí rozsah** | 0 až 140 000 lx |
 | **Měřicí rozlišení** | až 0.0042 lx |
-| **Spotřeba při vypnutí** | 0.5 µA |
-| **Spotřeba při měření** | 2 až 45 µA |
+| **Spotřeba při vypnutí** | až 0.5 µA |
+| **Spotřeba při měření** | až 45 µA |
 | **Pracovní teplota** | -25 °C až +85 °C |
 | **Rozhraní** | I²C |
 | **Velikost pouzdra** | 6.8 × 2.35 × 3.0 mm |
@@ -98,7 +98,6 @@
 <br>
 <br>
 
-
 ## Senzor tlaku a teploty
 
 ### Základní specifikace senzoru BMP390
@@ -124,12 +123,37 @@
 | **Cena** |  |
 
 > **Poznámky:** <br>
->  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecí napětí 3.3V. <br>
+>  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecí napětí 3.3 V. <br>
 
 ### **Související dokumentace** <br>
 * [Datasheet BMP390](datasheets/datasheet_bmp390.pdf) 
 
 
+<br>
+<br>
 
-* 
+## Magnetometr
 
+### Základní specifikace senzoru LIS2MDL
+
+| **Parametr**| LIS2MDL |
+| :--- | :--- |
+| **Adresa zařízení** | `0x1E` |
+| **Velikost výstupních dat** | 16 bitů|
+| **Napájecí napětí** |  1.71 až 3.6 V |
+| **Pracovní teplota** | -40 °C až +85 °C |
+| **Spotřeba při měření** | až 120 µA |
+| **Spotřeba při vypnutí** | až 1.5 µA|
+| **Měřicí rozsah** | ±50 gauss |
+| **Měřicí rozlišení** | 1.5 mgauss/LSB|
+| **Přesnost měření** | 3 mgauss |
+| **Velikost pouzdra** | 2.0 x 2.0 x 0.7 mm |
+| **Rozhraní** | I²C, SPI |
+| **Cena** |  |
+
+> **Poznámky:** <br>
+>  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecí napětí 2.5 V. <br>
+>  Senzor navíc obsahuje zabudovaný teplotní snímač sloužící k teplotní kompenzaci samotného magnetometru
+
+### **Související dokumentace** <br>
+* [Datasheet LIS2MDL](datasheets/datasheet_lis2mdl.pdf) 
