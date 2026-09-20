@@ -21,7 +21,7 @@
 
 > **Poznámky:** <br>
 >  [1] Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecím napětím 3.3V. <br>
->  [2] [2] Při venkovním použití a vystavení přímému slunci je pro zamezení saturace zvoleno nastavení zesílení na hodnotu ALS gain x 1/8 a současně integrační čas 100 ms, přičemž výsledné rozlišení odpovídá hodnotě 0.5376 lx.<br>
+>  [2] Při venkovním použití a vystavení přímému slunci je pro zamezení saturace zvoleno nastavení zesílení na hodnotu ALS gain x 1/8 a současně integrační čas 100 ms, přičemž výsledné rozlišení odpovídá hodnotě 0.5376 lx.<br>
 >  [3] Režim úspory energie (PSM) je deaktivován (PSM_EN = 0) za účelem zajištění okamžité odezvy a plynulého měření.<br>
 >  [4] Vypnutí a zapnutí senzoru je ovládáno pomocí bitu ALS_SD.<br>
 >  [5] Při probuzení ze stavu vypnutí je nutné před prvním čtením dat dodržet čekací dobu minimálně 2.5 ms pro ustálení vnitřního oscilátoru.
@@ -38,6 +38,7 @@
 * [Datasheet VEML7700](datasheets/datasheet_veml7700.pdf) <br>
 * [Application Note VEML7700](datasheets/application_note_veml7700.pdf)
 
+<br>
 
 ## Senzor UV záření
 
@@ -70,10 +71,11 @@
 >  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecím napětím 3.3V. <br>
 >  Hodnoty citlivosti a měřicího rozsahu jsou uvedeny pro konfiguraci GAIN = 1x. Toto minimální zesílení poskytuje maximální dynamický rozsah, který je nezbytný pro spolehlivé měření ve venkovním prostředí.
 
+### **Doporučené zapojení senzoru** <br>
+
 ### **Související dokumentace** <br>
 * [Datasheet AS7331](datasheets/datasheet_as7331.pdf) <br>
 
-<br>
 <br>
 
 ## Senzor vlhkosti a teploty
