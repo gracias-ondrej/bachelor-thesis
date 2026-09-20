@@ -31,30 +31,12 @@
 ![Doporučené zapojení senzoru VEML7700](images/doporucene_zapojeni_veml7700.png)
 
 > **Poznámky:** <br>
->  [1] Doporučené hodnoty pull-up rezistorů (R1 a R2 na liniích SDA a SCL) jsou 2.2 kΩ až 4.7 kΩ (minimálně však > 1 kΩ).
+>  [1] Doporučené hodnoty pull-up rezistorů (R1 a R2 na liniích SDA a SCL) jsou 2.2 kΩ až 4.7 kΩ (minimálně však > 1 kΩ).<br>
 >  [2] Senzor je vysoce odolný vůči rušení a proto je dostačující ořipojit malý kondenzátor na napájecím pinů.
 
 ### **Související dokumentace** <br>
 * [Datasheet VEML7700](datasheets/datasheet_veml7700.pdf) <br>
 * [Application Note VEML7700](datasheets/application_note_veml7700.pdf)
-
-<br>
-<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Senzor UV záření
