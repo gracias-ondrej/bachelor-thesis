@@ -14,15 +14,16 @@
 | **Spotřeba při vypnutí** | až 0.5 µA |
 | **Spotřeba při měření** | až 45 µA |
 | **Měřicí rozsah** | 0 až 140 000 lx |
-| **Měřicí rozlišení** | až 0.0042 lx | <sup>[2][3]</sup>
+| **Měřicí rozlišení** | až 0.0042 lx <sup>[2][3]</sup> |
 | **Rozhraní** | I²C |
 | **Velikost pouzdra** | 6.8 × 2.35 × 3.0 mm |
 | **Cena** |  |
 
 > **Poznámky:** <br>
 >  [1] Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecím napětím 3.3V. <br>
->  [2] Při venkovním použití a vystavení přímému slunci je pro zamezení saturace (přetečení hodnot) nezbytné nastavení zesílení na hodnotu ALS gain x 1/8, přičemž se rozlišení sníží na hodnotu 0.0672 lx <sup>[3]</sup>
->  [3] Hodnoty jsou uvedeny pro zvolený integrační čas 800 ms
+>  [2] Při venkovním použití a vystavení přímému slunci je pro zamezení saturace (přetečení hodnot) nezbytné nastavení zesílení na hodnotu ALS gain x 1/8, přičemž se rozlišení sníží na hodnotu 0.0672 lx <sup>[3]</sup> <br>
+>  [3] Hodnoty jsou uvedeny pro zvolený integrační čas 800 ms <br>
+>  [5] Při probuzení ze stavu vypnutí je nutné před prvním čtením dat dodržet čekací dobu minimálně 2.5 ms pro ustálení vnitřního oscilátoru.
 
 ### **Související dokumentace** <br>
 * [Datasheet VEML7700](datasheets/datasheet_veml7700.pdf) <br>
