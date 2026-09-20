@@ -228,9 +228,9 @@
 | **Cena** |  |
 
 > **Poznámky:** <br>
->  Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C, napájecí napětí 3.3 V, vlhkost vzduchu 50 % a tlak 1013 mbar. <br>
->  Krátkodobé proudové špičky při měření dosahují až 190 mA
->  Senzor navíc obsahuje zabudovaný snímač teploty a vlhkosti sloužící ke kompenzaci vlhkosti a teploty v okolí samotného magnetometru
+>  [1] Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C, napájecí napětí 3.3 V, vlhkost vzduchu 50 % a tlak 1013 mbar. <br>
+>  [2] Krátkodobé proudové špičky při měření dosahují až 190 mA
+>  [3] Senzor navíc obsahuje zabudovaný snímač teploty a vlhkosti sloužící ke kompenzaci vlhkosti a teploty v okolí samotného magnetometru
 
 ### **Doporučené zapojení senzoru** <br>
 ![Doporučené zapojení senzoru SEN62](images/doporucene_zapojeni_sen62.png)
@@ -240,9 +240,8 @@
 
 ### **Související dokumentace** <br>
 * [Datasheet SEN62](datasheets/datasheet_sen62.pdf)
-* 
-<br>
 
+<br>
 
 ## Senzor rychlosti větru
 
@@ -253,18 +252,45 @@
 | **Parametr**| WH-SP-WS01 |
 | :--- | :--- |
 | **Měřicí rozsah** | 0 – 160km/h  |
-| **Přesnost** | ± 1m/s v rozsahu do 10m/sm |
+| **Přesnost** | ± 1m/s v rozsahu do 10m/s |
 | **Přesnost** | ± 10% v rozsahu nad 10m/s |
 | **Rozhraní** | RJ12 |
 | **Velikost** | |
 | **Cena** |  |
 
 <br>
-<br>
 
 ## Senzor směru větru
 
-<br>
+### Základní specifikace senzoru WH-SP-WD
+
+| **Parametr**| WH-SP-WD |
+| :--- | :--- |
+| **Rozhraní** | RJ12 |
+| **Velikost** | |
+| **Cena** |  |
+
+#### Převodní tabulka směru a odporu
+
+| Směr [°] | Odpor [Ω] |
+| :--- | :--- |
+| **0°** | 33K |
+| **22.5°** | 6.57K |
+| **45°** | 8.2K |
+| **67.5°** | 891 |
+| **90°** | 1K |
+| **112.5°** | 688 |
+| **135°** | 2.2K |
+| **157.5°** | 1.41K |
+| **180°** | 3.9K |
+| **202.5°** | 3.14K |
+| **225°** | 16K |
+| **247.5°** | 14.12K |
+| **270°** | 120K |
+| **292.5°** | 42.12K |
+| **315°** | 64.9K |
+| **337.5°** | 21.88K |
+
 <br>
 
 ## Senzor srážek
@@ -281,8 +307,3 @@
 | **Velikost** | |
 | **Cena** |  |
 
-
-
-
-### **Související dokumentace** <br>
-* [Datasheet SEN62](datasheets/datasheet_sen62.pdf) 
