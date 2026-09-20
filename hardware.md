@@ -32,6 +32,8 @@
 
 ## Senzor UV záření
 
+![Náhledový obrázek senzoru AS7331](images/image_as7331.png)
+
 ### Základní specifikace senzoru AS7331 
 
 | **Parametr**| AS7331 |
@@ -66,6 +68,9 @@
 <br>
 
 ## Senzor vlhkosti a teploty
+
+![Náhledový obrázek senzoru SHT40](images/image_sht40.png)
+
 
 ### Základní specifikace senzoru SHT40
 
@@ -102,6 +107,8 @@
 
 ## Senzor tlaku
 
+![Náhledový obrázek senzoru BMP390](images/image_bmp390.png)
+
 ### Základní specifikace senzoru BMP390
 
 | **Parametr**| BMP390 |
@@ -136,6 +143,8 @@
 
 ## Magnetometr
 
+![Náhledový obrázek senzoru LIS2MDL](images/image_lis2mdl.png)
+
 ### Základní specifikace senzoru LIS2MDL
 
 | **Parametr**| LIS2MDL |
@@ -164,6 +173,8 @@
 <br>
 
 ## Senzor prachových částic
+
+![Náhledový obrázek senzoru SEN62](images/image_sen62.png)
 
 ### Základní specifikace senzoru SEN62
 
@@ -195,6 +206,8 @@
 <br>
 
 ## Senzor rychlosti větru
+
+![Náhledový obrázek senzoru WH-SP-WS01](images/image_wh_sp_ws01.png)
 
 ### Základní specifikace senzoru WH-SP-WS01
 
