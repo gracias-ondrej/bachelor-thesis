@@ -245,65 +245,11 @@
 
 ## Senzor rychlosti větru
 
-![Náhledový obrázek senzoru WH-SP-WS01](images/image_wh_sp_ws01.png)
-
-### Základní specifikace senzoru WH-SP-WS01
-
-| **Parametr**| WH-SP-WS01 |
-| :--- | :--- |
-| **Měřicí rozsah** | 0 – 160km/h  |
-| **Přesnost** | ± 1m/s v rozsahu do 10m/s |
-| **Přesnost** | ± 10% v rozsahu nad 10m/s |
-| **Rozhraní** | RJ12 |
-| **Velikost** | |
-| **Cena** |  |
-
-<br>
-
 ## Senzor směru větru
-
-### Základní specifikace senzoru WH-SP-WD
-
-| **Parametr**| WH-SP-WD |
-| :--- | :--- |
-| **Rozhraní** | RJ12 |
-| **Velikost** | |
-| **Cena** |  |
-
-#### Převodní tabulka směru a odporu
-
-| Směr [°] | Odpor [Ω] |
-| :--- | :--- |
-| **0°** | 33K |
-| **22.5°** | 6.57K |
-| **45°** | 8.2K |
-| **67.5°** | 891 |
-| **90°** | 1K |
-| **112.5°** | 688 |
-| **135°** | 2.2K |
-| **157.5°** | 1.41K |
-| **180°** | 3.9K |
-| **202.5°** | 3.14K |
-| **225°** | 16K |
-| **247.5°** | 14.12K |
-| **270°** | 120K |
-| **292.5°** | 42.12K |
-| **315°** | 64.9K |
-| **337.5°** | 21.88K |
-
-<br>
 
 ## Senzor srážek
 
-### Základní specifikace senzoru MS-WH-SP-RG
 
-| **Parametr**| MS-WH-SP-RG |
-| :--- | :--- |
-| **Měřicí rozsah** | 0 – 9999mm |
-| **Přesnost** | 10% |
-| **Rozlišení** | 0,3mm v rozsahu do 1000mm |
-| **Rozlišení** | 1mm v rozsahu nad 1000mm |
-| **Rozhraní** | RJ12 |
-| **Velikost** | |
+
 | **Cena** |  |
 
