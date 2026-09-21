@@ -1,7 +1,5 @@
 ## Senzor intenzity osvětlení
 
-![Náhledový obrázek senzoru VEML7700](images/image_veml7700.png)
-
 ### Základní specifikace senzoru VEML7700
 
 | **Parametr** | VEML7700 |
@@ -42,8 +40,6 @@
 
 ## Senzor UV záření
 
-![Náhledový obrázek senzoru AS7331](images/image_as7331.png)
-
 ### Základní specifikace senzoru AS7331 
 
 | **Parametr**| AS7331 |
@@ -83,9 +79,6 @@
 <br>
 
 ## Senzor vlhkosti a teploty
-
-![Náhledový obrázek senzoru SHT40](images/image_sht40.png)
-
 
 ### Základní specifikace senzoru SHT40
 
@@ -128,8 +121,6 @@
 
 ## Senzor tlaku
 
-![Náhledový obrázek senzoru BMP390](images/image_bmp390.png)
-
 ### Základní specifikace senzoru BMP390
 
 | **Parametr**| BMP390 |
@@ -169,8 +160,6 @@
 <br>
 
 ## Magnetometr
-
-![Náhledový obrázek senzoru LIS2MDL](images/image_lis2mdl.png)
 
 ### Základní specifikace senzoru LIS2MDL
 
