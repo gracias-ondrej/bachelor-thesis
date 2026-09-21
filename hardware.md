@@ -210,7 +210,7 @@
 | **Přesnost PM1 a PM2.5 (100 až 1000 µg/m³)** | ±10 % z naměřené hodnoty |
 | **Přesnost PM4 a PM10 (0 až 100 µg/m³)** | ±25 µg/m³ |
 | **Přesnost PM4 a PM10 (100 až 1000 µg/m³)** | ±25 % z naměřené hodnoty |
-| **Velikost pouzdra** | 55.2 × 29.9 × 19.2 mm |
+| **Velikost pouzdra** | 55.2 × 26.6 × 21.3 mm |
 | **Rozhraní** | I²C |
 | **Cena** |  |
 
