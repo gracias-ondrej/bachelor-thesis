@@ -248,5 +248,3 @@
 ## Senzor směru větru
 
 ## Senzor srážek
-| **Cena** |  |
-
