@@ -194,8 +194,6 @@
 
 ## Senzor prachových částic
 
-![Náhledový obrázek senzoru SEN62](images/image_sen62.png)
-
 ### Základní specifikace senzoru SEN62
 
 | **Parametr**| SEN62 |
