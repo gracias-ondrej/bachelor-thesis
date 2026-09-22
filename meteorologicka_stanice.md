@@ -10,5 +10,5 @@
 
 > **Poznámky:** <br>
 >  [1] Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecím napětím 3.3V. <br>
->  [2] Spotřeba senzoru SEN62 v klidovém režimu dosahuje příliš vysokých hodnot, tudíž je nutné použít MOSFET tranzistor pro vypnutí napájení na tvrdo
->  [2] Všechny uvedené hodnoty představují typické parametry pro nejvyšší použitelné rozlišení a přesnost jednotlivých senzorů
+>  [2] Spotřeba senzoru SEN62 dosahuje 3,3 mA, což je pro dlouhodobý provoz na baterii příliš vysoká hodnota a proto je nezbytné použití MOSFET tranzistoru pro tvrdé odpojení napájení. <br>
+>  [3] Všechny uvedené hodnoty představují typické parametry pro nejvyšší použitelné rozlišení a přesnost jednotlivých senzorů.
