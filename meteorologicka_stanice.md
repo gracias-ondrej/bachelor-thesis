@@ -12,3 +12,10 @@
 >  [1] Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecím napětím 3.3V. <br>
 >  [2] Spotřeba senzoru SEN62 dosahuje 3,3 mA, což je pro dlouhodobý provoz na baterii příliš vysoká hodnota a proto je nezbytné použití MOSFET tranzistoru pro tvrdé odpojení napájení. <br>
 >  [3] Všechny uvedené hodnoty představují typické parametry pro nejvyšší použitelné rozlišení a přesnost jednotlivých senzorů.
+
+### **Přehled spotřeby modulu LoRa-E5
+
+| Modul | Spotřeba při uspání | Spotřeba při běhu MCU | Spotřeba při vysílání |
+| :--- | :--- | :--- | :--- |
+| LoRa-E5 | 1,85 mA | 111 mA | 2,1 µA |
+
