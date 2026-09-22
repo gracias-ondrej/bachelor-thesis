@@ -19,3 +19,5 @@
 | :--- | :--- | :--- | :--- |
 | LoRa-E5 | 2,1 µA | 1,85 mA | 111 mA |
 
+> **Poznámky:** <br>
+>  [1] Spotřeba při běhu MCU byla stanovena pro frekvenci 16 MHz. <br>
