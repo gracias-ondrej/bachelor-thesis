@@ -17,5 +17,5 @@
 
 | Modul | Spotřeba při uspání | Spotřeba při běhu MCU | Spotřeba při vysílání |
 | :--- | :--- | :--- | :--- |
-| LoRa-E5 | 1,85 mA | 111 mA | 2,1 µA |
+| LoRa-E5 | 2,1 µA | 1,85 mA | 111 mA |
 
