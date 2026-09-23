@@ -21,3 +21,12 @@
 
 > **Poznámky:** <br>
 >  [1] Spotřeba při běhu MCU byla stanovena pro frekvenci 16 MHz. <br>
+
+### **Přehled velikosti výstupních dat senzorů**
+
+| Senzor | Velikost výstupních dat | Složení výstupních dat |
+| :--- | :--- | :--- |
+| **VEML7700** | 16 bitů | 16 bitů DATA |
+| **SHT40** | 48 bitů | 32 bitů DATA + 16 bitů CRC |
+| **BMP390** | 48 bitů | 48 bitů DATA |
+| **SEN62** | 144 bitů | 96 bitů DATA + 48 bitů CRC
