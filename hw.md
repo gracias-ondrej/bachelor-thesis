@@ -1,7 +1,7 @@
 
 ### **Přehled spotřeby a doby měření senzorů meteostanice**
 
-| Senzor | Spotřeba při měření | Spotřeba při v klidu | Doba měření |
+| Senzor | Spotřeba při měření | Spotřeba v klidu | Doba měření |
 | :--- | :--- | :--- | :--- |
 | **VEML7700** | 45 μA | 0,5 μA | 25 ms |
 | **SHT40** | 2.4 μA | 0,1 μA | 7.2 ms |
