@@ -22,7 +22,7 @@
 | LoRa-E5 | 2,1 µA | 1,85 mA | 111 mA |
 
 > **Poznámky:** <br>
->  [1] Spotřeba při běhu MCU byla stanovena pro frekvenci 16 MHz. <br>
+>  [1] Spotřeba při běhu MCU byla stanovena pro frekvenci 16 MHz.
 
 ### **Přehled velikosti výstupních dat ze senzorů**
 
@@ -33,6 +33,9 @@
 | **BMP390** | 48 bitů | 48 bitů DATA |
 | **SEN62** | 144 bitů | 96 bitů DATA + 48 bitů CRC
 
+> **Poznámky:** <br>
+>  [1] Mechanické senzory (srážkoměr a anemometr) nejsou v této tabulce zahrnuty, jelikož jejich výstupem je impulz, který čítá MCU.
+
 ### **Přehled velikosti odesílaných dat (Payload)**
 
 | Název periferie | Velikost odesílaných dat | Složení výstupních dat |
@@ -41,6 +44,24 @@
 | **SHT40** | 32 bitů | Teplota + vlhkost |
 | **BMP390** | 24 bitů | Tlak |
 | **SEN62** | 64 bitů | Množství prachových částic (PM1.0, PM2.5, PM4.0, PM10.0) |
+| **WH-SP-WS01** | 8 bitů | Rychlost větru |
+| **HS-WH-SP-RG** | 8 bitů | Množství srážek |
 
 > **Poznámky:** <br>
 >  [1] Hodnoty v tabulce udávají maximální velikost surových dat, data se budou ještě v MCU upravovat.
+
+### **Přehled doby vysílání**
+
+| Spreading Factor | Doba vysílání | Počet možných zpráv za 24h |
+| :--- | :--- | :--- |
+| **SF7** | 71.9 ms | 417 zpráv |
+| **SF8** | 133.6 ms | 224 zpráv |
+| **SF9** | 246.8 ms | 121 zpráv |
+| **SF10** | 452.6 ms | 66 zpráv |
+| **SF11** | 987.1 ms | 30 zpráv |
+| **SF12** | 1810.4 ms | 16 zpráv |
+
+https://www.thethingsnetwork.org/airtime-calculator
+
+> **Poznámky:** <br>
+>  [1] Síť The Thing Network stanovuje denní limity na 30 sekund vysílacího času a maximálně 10 příchozích zpráv za den na jedno zařízení.
