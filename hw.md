@@ -24,7 +24,7 @@
 > **Poznámky:** <br>
 >  [1] Spotřeba při běhu MCU byla stanovena pro frekvenci 16 MHz. <br>
 
-### **Přehled velikosti výstupních dat senzorů**
+### **Přehled velikosti výstupních dat ze senzorů**
 
 | Název periferie | Velikost výstupních dat | Složení výstupních dat |
 | :--- | :--- | :--- |
@@ -42,3 +42,5 @@
 | **BMP390** | 24 bitů | Tlak |
 | **SEN62** | 64 bitů | Množství prachových částic (PM1.0, PM2.5, PM4.0, PM10.0) |
 
+> **Poznámky:** <br>
+>  [1] Hodnoty v tabulce udávají maximální velikost surových dat, data se budou ještě v MCU upravovat.
