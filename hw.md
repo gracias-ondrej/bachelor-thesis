@@ -9,10 +9,10 @@
 | **SEN62** | 75 mA | 3,3 mA | 31 s |
 
 > **Poznámky:** <br>
->  [1] Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecí napětí 3.3 V. <br>
->  [2] Spotřeba senzoru SEN62 dosahuje 3,3 mA, což je pro dlouhodobý provoz na baterii příliš vysoká hodnota a proto je nezbytné použití MOSFET tranzistoru pro tvrdé odpojení napájení. <br>
->  [3] Všechny uvedené hodnoty představují typické parametry pro nejvyšší použitelné rozlišení a přesnost jednotlivých senzorů. <br>
->  [4] Délka měření senzoru uvedená v tabulce neodpovídá specifikacím v datasheetu, kde je typický odběr 45 μA definován pro integrační dobu 100 ms. Domnívám se však, že ačkoliv dokumentace spotřebu pro 25ms interval explicitně neuvádí, nebude se okamžitý odběr od 100 ms varianty zásadně lišit. <br>
+>  [1] Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecí napětí 3.3 V. <br><br>
+>  [2] Spotřeba senzoru SEN62 dosahuje 3,3 mA, což je pro dlouhodobý provoz na baterii příliš vysoká hodnota a proto je nezbytné použití MOSFET tranzistoru pro tvrdé odpojení napájení. <br><br>
+>  [3] Všechny uvedené hodnoty představují typické parametry pro nejvyšší použitelné rozlišení a přesnost jednotlivých senzorů. <br><br>
+>  [4] Délka měření senzoru uvedená v tabulce neodpovídá specifikacím v datasheetu, kde je typický odběr 45 μA definován pro integrační dobu 100 ms. Domnívám se však, že ačkoliv dokumentace spotřebu pro 25ms interval explicitně neuvádí, nebude se okamžitý odběr od 100 ms varianty zásadně lišit. <br><br>
 >  [5] Senzor BMP390 měří tlak i teplotu zvlášť, proto jsou hodnoty spotřeby pro tyto měření uvedeny zvlášť.
 
 ### **Přehled spotřeby modulu LoRa-E5**
