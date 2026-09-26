@@ -52,14 +52,14 @@
 
 ### **Přehled doby vysílání**
 
-| Spreading Factor | Doba vysílání | Počet možných zpráv za 24h |
-| :--- | :--- | :--- |
-| **SF7** | 71.9 ms | 417 zpráv |
-| **SF8** | 133.6 ms | 224 zpráv |
-| **SF9** | 246.8 ms | 121 zpráv |
-| **SF10** | 452.6 ms | 66 zpráv |
-| **SF11** | 987.1 ms | 30 zpráv |
-| **SF12** | 1810.4 ms | 16 zpráv |
+| Spreading Factor | Doba vysílání | Počet možných zpráv za 24h | Interval mezi zprávami
+| :--- | :--- | :--- |:--- |
+| **SF7** | 71.9 ms | 417 zpráv | 3 min a 30 s |
+| **SF8** | 133.6 ms | 224 zpráv | 6 min a 26 s |
+| **SF9** | 246.8 ms | 121 zpráv | 11 min a 54 s |
+| **SF10** | 452.6 ms | 66 zpráv | 21 min a 49 s |
+| **SF11** | 987.1 ms | 30 zpráv | 48 min |
+| **SF12** | 1810.4 ms | 16 zpráv | 1 hod a 30 min |
 
 https://www.thethingsnetwork.org/airtime-calculator
 
