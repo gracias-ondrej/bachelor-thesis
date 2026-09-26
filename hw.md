@@ -1,7 +1,7 @@
 
 ### **Přehled spotřeby a doby měření senzorů meteostanice**
 
-| Senzor | Spotřeba při měření | Spotřeba v klidu | Doba měření |
+| Název periferie | Spotřeba při měření | Spotřeba v klidu | Doba měření |
 | :--- | :--- | :--- | :--- |
 | **VEML7700** | 45 μA | 0,5 μA | 25 ms |
 | **SHT40** | 350 μA | 0,1 μA | 6.9 ms |
@@ -26,7 +26,7 @@
 
 ### **Přehled velikosti výstupních dat senzorů**
 
-| Senzor | Velikost výstupních dat | Složení výstupních dat |
+| Název periferie | Velikost výstupních dat | Složení výstupních dat |
 | :--- | :--- | :--- |
 | **VEML7700** | 16 bitů | 16 bitů DATA |
 | **SHT40** | 48 bitů | 32 bitů DATA + 16 bitů CRC |
