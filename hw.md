@@ -32,3 +32,13 @@
 | **SHT40** | 48 bitů | 32 bitů DATA + 16 bitů CRC |
 | **BMP390** | 48 bitů | 48 bitů DATA |
 | **SEN62** | 144 bitů | 96 bitů DATA + 48 bitů CRC
+
+### **Přehled velikosti odesílaných dat (Payload)**
+
+| Název periferie | Velikost odesílaných dat | Složení výstupních dat |
+| :--- | :--- | :--- |
+| **VEML7700** | 16 bitů | Jas |
+| **SHT40** | 32 bitů | Teplota + vlhkost |
+| **BMP390** | 24 bitů | Tlak |
+| **SEN62** | 64 bitů | Množství prachových částic (PM1.0, PM2.5, PM4.0, PM10.0) |
+
