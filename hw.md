@@ -1,7 +1,7 @@
 
 ### **Přehled spotřeby a doby měření senzorů meteostanice**
 
-| Název periferie | Spotřeba při měření | Spotřeba v klidu | Doba měření |
+| Název periferie | Spotřeba při měření | Klidovová spotřeba | Doba měření |
 | :--- | :--- | :--- | :--- |
 | **VEML7700** | 45 μA | 0,5 μA | 25 ms |
 | **SHT40** | 350 μA | 0,1 μA | 6.9 ms |
@@ -17,7 +17,7 @@
 
 ### **Přehled spotřeby modulu LoRa-E5**
 
-| Modul | Spotřeba při uspání | Spotřeba při běhu MCU | Spotřeba při vysílání |
+| Modul | Klidová spotřeba | Spotřeba při běhu MCU | Spotřeba při vysílání |
 | :--- | :--- | :--- | :--- |
 | LoRa-E5 | 2,1 µA | 1,85 mA | 111 mA |
 
