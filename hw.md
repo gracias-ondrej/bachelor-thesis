@@ -6,7 +6,7 @@
 | **VEML7700** | 45 μA | 0,5 μA | 25 ms |
 | **SHT40** | 350 μA | 0,1 μA | 6.9 ms |
 | **BMP390** | 660 μA (tlak) / 240 μA (teplota) | 1,5 μA | 69,5 ms |
-| **SEN62** | 75 mA | 3,3 mA | 31 s |
+| **SEN62** | 75 mA | 3,3 mA | 90 s |
 
 > **Poznámky:** <br>
 >  [1] Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C a napájecí napětí 3.3 V. <br><br>
@@ -23,6 +23,22 @@
 
 > **Poznámky:** <br>
 >  [1] Spotřeba při běhu MCU byla stanovena pro frekvenci 16 MHz.
+
+### **Přehled maximální spotřeby (peak) senzorů meteostanice**
+
+| Název periferie | Maximální spotřeba |
+| :--- | :--- |
+| **VEML7700** | 45 µA |
+| **SHT40** | 500 µA |
+| **BMP390** | 730 µA |
+| **SEN62** | 190 mA |
+| **LoRa-E5** | 111 mA |
+
+$$I_{\text{celk}} = \sum_{i=1}^{n} I_{\text{celk}, i} = I_{\text{LoRa-E5}} + I_{\text{SEN62}} + I_{\text{BMP390}} + I_{\text{SHT40}} + I_{\text{VEML7700}}$$
+
+> **Poznámky:** <br>
+>  [1] Maximální spotřeba pro senzor SHT40 je definována bez výhřevu tepelného článku a pro snímač VEML7700 výrobce neuvádí maximální hodnotu proudu, tudíž byla použita hodnota typická. <br><br>
+>  [2] Maximální spotřeba anenometru, sražkoměru a ostatních obvodů v návrhu nejsou započítány z důvodu zanedbatelné velikosti spotřeby a také z důvodu chybějících hodnot potřebných součástek.
 
 ### **Přehled velikosti výstupních dat ze senzorů**
 
