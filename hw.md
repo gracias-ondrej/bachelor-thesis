@@ -33,8 +33,6 @@
 | **BMP390** | 730 µA |
 | **SEN62** | 190 mA |
 | **LoRa-E5** | 111 mA |
-
-| :--- | :--- |
 | **Celková spotřeba** | 302.275 mA |
 
 > **Poznámky:** <br>
