@@ -71,3 +71,9 @@ https://www.thethingsnetwork.org/airtime-calculator
 >  [2] Počet zpráv a doba vysílání závisí primárně na SF (spreading factor). Změna velikosti dat (payload) nemá v porovnání s ním zásadní vliv, přesto je potřeba ji optimalizovat na minimum. <br><br>
 >  [3] Tato tabulka znázorňuje worst case scénář, kdy se posílá maximální množství dat. <br><br>
 >  [4] Z tabulky je očividné, že se bude muset pro každý SF zvolit odpovídající harmonogram odesílání. 
+
+### **Přehled harmonogramů vysílání**
+
+| Spreading Factor | Doba vysílání krátké zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h | Doba vysílání dlouhé zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h |
+| :--- | :--- | :--- |:--- | :--- | :--- | :--- |:--- |:--- |
+| **SF7** | 56.6 ms | 72 bitů | 5 min | 10 zpráv | 71.9 ms | 160 bitů | 30 min | 2 zprávy |
