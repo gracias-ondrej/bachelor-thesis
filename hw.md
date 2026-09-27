@@ -49,8 +49,8 @@
 | **ADC převodník** | 8 bitů | Kapacita baterie |
 
 > **Poznámky:** <br>
->  [1] Hodnoty v tabulce udávají maximální velikost surových dat, data se budou ještě v MCU upravovat. Tabulka slouží pouze jako hrubý odhad worst case scénáře.
->  [2] U mechanických senzorů, tudíž srážkoměr a anenometr, budou odesílány hodnoty počtu jednotlivých sepnutí,které se následně zpracují na serveru. Tím se ušetří na množství potřebných bitů.
+>  [1] Hodnoty v tabulce udávají maximální velikost surových dat, data se budou ještě v MCU upravovat. Tabulka slouží pouze jako hrubý odhad worst case scénáře. <br><br>
+>  [2] U mechanických senzorů, tudíž srážkoměr a anenometr, budou odesílány hodnoty počtu jednotlivých sepnutí,které se následně zpracují na serveru. Tím se ušetří na množství potřebných bitů. <br><br>
 >  [3] Maximální celkový přenos dat (payload) bude tudíž 160 bitů (20 bytů).
  
 ### **Přehled doby vysílání**
