@@ -34,7 +34,7 @@
 | **SEN62** | 190 mA |
 | **LoRa-E5** | 111 mA |
 
-$$I_{\text{celk}} = \sum_{i=1}^{n} I_{\text{celk}, i} = I_{\text{LoRa-E5}} + I_{\text{SEN62}} + I_{\text{BMP390}} + I_{\text{SHT40}} + I_{\text{VEML7700}}$$
+| **Celková spotřeba** | 302.275 mA |
 
 > **Poznámky:** <br>
 >  [1] Maximální spotřeba pro senzor SHT40 je definována bez výhřevu tepelného článku a pro snímač VEML7700 výrobce neuvádí maximální hodnotu proudu, tudíž byla použita hodnota typická. <br><br>
