@@ -67,4 +67,6 @@
 https://www.thethingsnetwork.org/airtime-calculator
 
 > **Poznámky:** <br>
->  [1] Síť The Thing Network stanovuje denní limity na 30 sekund vysílacího času a maximálně 10 příchozích zpráv za den na jedno zařízení.
+>  [1] Síť The Thing Network stanovuje denní limity na 30 sekund vysílacího času a maximálně 10 příchozích zpráv za den na jedno zařízení. <br><br>
+>  [2] Počet zpráv a doba vysílání závisí primárně na SF (spreading factor). Změna velikosti dat (payload) nemá v porovnání s ním zásadní vliv, přesto je potřeba ji optimalizovat na minimum. <br><br>
+>  [3] Tato tabulka znázorňuje worst case scénář, kdy se posílá maximální množství dat.
