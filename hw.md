@@ -74,6 +74,6 @@ https://www.thethingsnetwork.org/airtime-calculator
 
 ### **Přehled harmonogramů vysílání**
 
-| Spreading Factor | Doba vysílání krátké zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h | Doba vysílání dlouhé zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h |
-| :--- | :--- | :--- |:--- | :--- | :--- | :--- |:--- |:--- |
-| **SF7** | 56.6 ms | 72 bitů | 5 min | 10 zpráv | 71.9 ms | 160 bitů | 30 min | 2 zprávy |
+| Spreading Factor | Doba vysílání krátké zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h || Doba vysílání dlouhé zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h |
+| :--- | :--- | :--- |:--- | :--- | :--- | :--- |:--- |:--- |:--- |
+| **SF7** | 56.6 ms | 72 bitů | 5 min | 10 zpráv || 71.9 ms | 160 bitů | 30 min | 2 zprávy |
