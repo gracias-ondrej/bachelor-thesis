@@ -102,10 +102,34 @@
 > **Poznámky:** <br>
 >  [1] Uvedené hodnoty jsou stanoveny výrobcem pro teplotu okolí 25 °C, napájecí napětí 3.3 V, vlhkost vzduchu 50 % a tlak 1013 mbar. <br><br>
 >  [2] Krátkodobé proudové špičky při měření dosahují až 190 mA<br><br>
->  [3] Senzor navíc obsahuje zabudovaný snímač teploty a vlhkosti sloužící ke kompenzaci vlhkosti a teploty v okolí. <br<br>>
+>  [3] Senzor navíc obsahuje zabudovaný snímač teploty a vlhkosti sloužící ke kompenzaci vlhkosti a teploty v okolí. <br><br>
 >  [4] Při probuzení ze stavu vypnutí je nutné před prvním čtením dat dodržet čekací dobu minimálně 30 s.
 
+## Senzor rychlosti větru
 
+### Základní specifikace senzoru WH-SP-WS01
+
+| **Parametr**| WH-SP-WS01 |
+| :--- | :--- |
+| **Měřící rozsah** | 0 až 160km/h |
+| **Měřící rozlišení** | 2.4 km/h |
+| **Přesnost** | ± 1m/s v rozsahu do 10m/s <br> ± 10% v rozsahu nad 10m/s|
+| **Velikost pouzdra** | 55.2 × 26.6 × 21.3 mm |
+| **Rozhraní** | I²C |
+| **Cena** |  |
+
+## Senzor srážek
+
+### Základní specifikace senzoru HS-WH-SP-RG
+
+| **Parametr**| HS-WH-SP-RG |
+| :--- | :--- |
+| **Měřící rozsah** | 0 – 9999mm |
+| **Měřící rozlišení** | 0,3mm v rozsahu do 1000mm <br> 1mm v rozsahu nad 1000mm |
+| **Přesnost** | 10% |
+| **Velikost pouzdra** | 55.2 × 26.6 × 21.3 mm |
+| **Rozhraní** | I²C |
+| **Cena** |  |
 
 ### **Přehled spotřeby a doby měření senzorů meteostanice**
 
