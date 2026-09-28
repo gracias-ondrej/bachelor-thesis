@@ -1,3 +1,5 @@
+# 1. Specifikace použitých senzorů
+
 ## Senzor intenzity osvětlení
 
 ### Základní specifikace senzoru VEML7700
@@ -131,9 +133,11 @@
 | **Rozhraní** | RJ11 (2 vodiče) |
 | **Cena** |  |
 
+# 2. Spotřeba meteostanice
+
 ### **Přehled spotřeby a doby měření senzorů meteostanice**
 
-| Název periferie | Spotřeba při měření | Klidovová spotřeba | Doba měření |
+| Název periferie | Spotřeba při měření | Klidová spotřeba | Doba měření |
 | :--- | :--- | :--- | :--- |
 | **VEML7700** | 45 μA | 0,5 μA | 25 ms |
 | **SHT40** | 350 μA | 0,1 μA | 6.9 ms |
@@ -170,6 +174,8 @@
 > **Poznámky:** <br>
 >  [1] Maximální spotřeba pro senzor SHT40 je definována bez výhřevu tepelného článku a pro snímač VEML7700 výrobce neuvádí maximální hodnotu proudu, tudíž byla použita hodnota typická. <br><br>
 >  [2] Maximální spotřeba anenometru, sražkoměru a ostatních obvodů v návrhu nejsou započítány z důvodu zanedbatelné velikosti spotřeby a také z důvodu chybějících hodnot potřebných součástek.
+
+# 3. Definování komunikace
 
 ### **Přehled velikosti výstupních dat ze senzorů**
 
