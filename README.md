@@ -168,7 +168,7 @@
 > **Poznámky:** <br>
 >  [1] Spotřeba při běhu MCU byla stanovena pro frekvenci 16 MHz.
 
-### **Přehled maximální spotřeby (peak) senzorů meteostanice**
+### **Přehled maximální spotřeby (peak) periferií meteostanice**
 
 | Název periferie | Maximální spotřeba |
 | :--- | :--- |
