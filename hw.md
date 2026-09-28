@@ -1,5 +1,7 @@
 <br>
+
 # Specifikace použitých senzorů
+
 <br>
 
 ## Senzor intenzity osvětlení
@@ -134,9 +136,13 @@
 | **Velikost pouzdra** | 170 × 110 × 80 mm |
 | **Rozhraní** | RJ11 (2 vodiče) |
 | **Cena** |  |
+
 <br>
+
 # Spotřeba meteostanice
+
 <br>
+
 ### **Přehled spotřeby a doby měření senzorů meteostanice**
 
 | Název periferie | Spotřeba při měření | Klidová spotřeba | Doba měření |
@@ -178,7 +184,9 @@
 >  [2] Maximální spotřeba anenometru, sražkoměru a ostatních obvodů v návrhu nejsou započítány z důvodu zanedbatelné velikosti spotřeby a také z důvodu chybějících hodnot potřebných součástek.
 
 <br>
+
 # Definování komunikace
+
 <br>
 
 ### **Přehled velikosti výstupních dat ze senzorů**
