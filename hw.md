@@ -80,6 +80,7 @@
 | **SF12** | 1810.4 ms | 16 zpráv | 1 hod a 30 min |
 
 https://www.thethingsnetwork.org/airtime-calculator
+https://www.etsi.org/deliver/etsi_en/300200_300299/30022002/03.03.01_60/en_30022002v030301p.pdf
 
 > **Poznámky:** <br>
 >  [1] Síť The Thing Network stanovuje denní limity na 30 sekund vysílacího času a maximálně 10 příchozích zpráv za den na jedno zařízení. <br><br>
