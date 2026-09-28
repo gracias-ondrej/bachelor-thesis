@@ -114,8 +114,8 @@
 | **Měřící rozsah** | 0 až 160km/h |
 | **Měřící rozlišení** | 2.4 km/h |
 | **Přesnost** | ± 1m/s v rozsahu do 10m/s <br> ± 10% v rozsahu nad 10m/s|
-| **Velikost pouzdra** | 55.2 × 26.6 × 21.3 mm |
-| **Rozhraní** | I²C |
+| **Velikost pouzdra** | 150 × 80 × 170 mm |
+| **Rozhraní** | RJ11 (2 vodiče) |
 | **Cena** |  |
 
 ## Senzor srážek
@@ -127,8 +127,8 @@
 | **Měřící rozsah** | 0 – 9999mm |
 | **Měřící rozlišení** | 0,3mm v rozsahu do 1000mm <br> 1mm v rozsahu nad 1000mm |
 | **Přesnost** | 10% |
-| **Velikost pouzdra** | 55.2 × 26.6 × 21.3 mm |
-| **Rozhraní** | I²C |
+| **Velikost pouzdra** | 170 × 110 × 80 mm |
+| **Rozhraní** | RJ11 (2 vodiče) |
 | **Cena** |  |
 
 ### **Přehled spotřeby a doby měření senzorů meteostanice**
