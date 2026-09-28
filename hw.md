@@ -1,4 +1,6 @@
-# 1. Specifikace použitých senzorů
+<br>
+# Specifikace použitých senzorů
+<br>
 
 ## Senzor intenzity osvětlení
 
@@ -132,9 +134,9 @@
 | **Velikost pouzdra** | 170 × 110 × 80 mm |
 | **Rozhraní** | RJ11 (2 vodiče) |
 | **Cena** |  |
-
-# 2. Spotřeba meteostanice
-
+<br>
+# Spotřeba meteostanice
+<br>
 ### **Přehled spotřeby a doby měření senzorů meteostanice**
 
 | Název periferie | Spotřeba při měření | Klidová spotřeba | Doba měření |
@@ -175,7 +177,9 @@
 >  [1] Maximální spotřeba pro senzor SHT40 je definována bez výhřevu tepelného článku a pro snímač VEML7700 výrobce neuvádí maximální hodnotu proudu, tudíž byla použita hodnota typická. <br><br>
 >  [2] Maximální spotřeba anenometru, sražkoměru a ostatních obvodů v návrhu nejsou započítány z důvodu zanedbatelné velikosti spotřeby a také z důvodu chybějících hodnot potřebných součástek.
 
-# 3. Definování komunikace
+<br>
+# Definování komunikace
+<br>
 
 ### **Přehled velikosti výstupních dat ze senzorů**
 
