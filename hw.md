@@ -229,7 +229,7 @@
 | **SF11** | 987.1 ms | 30 zpráv | 48 min |
 | **SF12** | 1810.4 ms | 16 zpráv | 1 hod a 30 min |
 
-https://www.thethingsnetwork.org/airtime-calculator
+https://www.thethingsnetwork.org/airtime-calculator <br>
 https://www.etsi.org/deliver/etsi_en/300200_300299/30022002/03.03.01_60/en_30022002v030301p.pdf
 
 > **Poznámky:** <br>
