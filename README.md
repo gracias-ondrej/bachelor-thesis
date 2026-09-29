@@ -183,12 +183,6 @@
 >  [1] Maximální spotřeba pro senzor SHT40 je definována bez výhřevu tepelného článku a pro snímač VEML7700 výrobce neuvádí maximální hodnotu proudu, tudíž byla použita hodnota typická. <br><br>
 >  [2] Maximální spotřeba anenometru, sražkoměru a ostatních obvodů v návrhu nejsou započítány z důvodu zanedbatelné velikosti spotřeby a také z důvodu chybějících hodnot potřebných součástek.
 
-<br>
-
-# Definování komunikace
-
-<br>
-
 ### **Přehled velikosti výstupních dat ze senzorů**
 
 | Název periferie | Velikost výstupních dat | Složení výstupních dat |
