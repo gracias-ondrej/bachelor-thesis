@@ -243,3 +243,12 @@ https://www.etsi.org/deliver/etsi_en/300200_300299/30022002/03.03.01_60/en_30022
 | **SF10** || 370.7 ms | 72 bitů | 30 min | 24 zpráv || 452.6 ms | 160 bitů | 60 min | 24 zpráv ||  19.76 s || 27.48 µA |
 | **SF11** || ~~741.4 ms~~ | ~~72 bitů~~ | ~~60 min~~ | ~~0 zpráv~~ || 987.1 ms | 160 bitů | 60 min | 24 zpráv || 23.69 s || 32.54 µA |
 | **SF12** || ~~1482.8 ms~~ | ~~72 bitů~~ | ~~90 min~~ | ~~0 zpráv~~ || 1810.4 ms | 160 bitů | 180 min | 14 zpráv || 25.35 s || 34.66 µA |
+
+| Spreading Factor | Průměrná spotřeba senzorů |
+| :--- | :--- |
+| **SF7** | 3.75 mA |
+| **SF8** | 3.75 mA |
+| **SF9** | 1.88 mA |
+| **SF10** | 1.88 mA |
+| **SF11** | 1.88 mA |
+| **SF12** | 1.1 mA |
