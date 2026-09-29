@@ -235,12 +235,11 @@ https://www.etsi.org/deliver/etsi_en/300200_300299/30022002/03.03.01_60/en_30022
 
 ### **Přehled harmonogramů vysílání**
 
-| Spreading Factor || Doba vysílání krátké zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h || Doba vysílání dlouhé zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h || Celková doba přenosu za den |
-| :--- | :--- | :--- |:--- | :--- | :--- | :--- |:--- |:--- |:--- |:--- |:--- |:--- |
-| **SF7** || 56.6 ms | 72 bitů | 5 min | 240 zpráv || 71.9 ms | 160 bitů | 30 min | 48 zpráv || 17,04 s |
-| **SF8** || 102.9 ms | 72 bitů | 10 min | 96 zpráv || 133.6 ms | 160 bitů | 30 min | 48 zpráv || 16,29 s |
-| **SF9** || 205.8 ms | 72 bitů | 15 min | 72 zpráv || 246.8 ms | 160 bitů | 60 min | 24 zpráv || 20,74 s |
-| **SF10** || 370.7 ms | 72 bitů | 30 min | 24 zpráv || 452.6 ms | 160 bitů | 60 min | 24 zpráv ||  19.76 s |
-| **SF11** || ~~741.4 ms~~ | ~~72 bitů~~ | ~~60 min~~ | ~~0 zpráv~~ || 987.1 ms | 160 bitů | 60 min | 24 zpráv || 23.69 s |
-| **SF12** || ~~1482.8 ms~~ | ~~72 bitů~~ | ~~90 min~~ | ~~0 zpráv~~ || 1810.4 ms | 160 bitů | 180 min | 14 zpráv || 25.35 s |
-
+| Spreading Factor || Doba vysílání krátké zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h || Doba vysílání dlouhé zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h || Celková doba přenosu za den || Průměrná spotřeba |
+| :--- | :--- | :--- |:--- | :--- | :--- | :--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
+| **SF7** || 56.6 ms | 72 bitů | 5 min | 240 zpráv || 71.9 ms | 160 bitů | 30 min | 48 zpráv || 17.04 s | 21.89 µA |
+| **SF8** || 102.9 ms | 72 bitů | 10 min | 96 zpráv || 133.6 ms | 160 bitů | 30 min | 48 zpráv || 16.29 s || 20.93 µA |
+| **SF9** || 205.8 ms | 72 bitů | 15 min | 72 zpráv || 246.8 ms | 160 bitů | 60 min | 24 zpráv || 20.74 s || 26.65 µA |
+| **SF10** || 370.7 ms | 72 bitů | 30 min | 24 zpráv || 452.6 ms | 160 bitů | 60 min | 24 zpráv ||  19.76 s || 25.39 µA |
+| **SF11** || ~~741.4 ms~~ | ~~72 bitů~~ | ~~60 min~~ | ~~0 zpráv~~ || 987.1 ms | 160 bitů | 60 min | 24 zpráv || 23.69 s || 30.44 µA |
+| **SF12** || ~~1482.8 ms~~ | ~~72 bitů~~ | ~~90 min~~ | ~~0 zpráv~~ || 1810.4 ms | 160 bitů | 180 min | 14 zpráv || 25.35 s || 32.56 µA |
