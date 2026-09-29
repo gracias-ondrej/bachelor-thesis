@@ -214,7 +214,7 @@
  
 ### **Přehled doby vysílání**
 
-| Spreading Factor | Doba vysílání | Počet možných zpráv za 24h | Interval mezi zprávami
+| Spreading Factor | Doba vysílání | Počet možných zpráv za 24h | Minimální interval mezi zprávami |
 | :--- | :--- | :--- |:--- |
 | **SF7** | 71.9 ms | 417 zpráv | 3 min a 30 s |
 | **SF8** | 133.6 ms | 224 zpráv | 6 min a 26 s |
