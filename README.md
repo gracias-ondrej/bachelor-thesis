@@ -214,7 +214,7 @@
 
 ### **Přehled harmonogramů vysílání**
 
-| Spreading Factor || Doba vysílání krátké zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h || Doba vysílání dlouhé zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h || Celková doba přenosu za den || Průměrná spotřeba rádia || Průměrná spotřeba senzorů |
+| Spreading Factor || Doba vysílání krátké zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h || Doba vysílání dlouhé zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h || Celková doba přenosu za den || Průměrná denní spotřeba rádia || Průměrná denní spotřeba senzorů |
 | :--- | :--- | :--- |:--- | :--- | :--- | :--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 | **SF7** || 61.7 ms | 11 bytů | 5 min | 240 zpráv || 77.1 ms | 22 bytů | 30 min | 48 zpráv || 18.51 s || 23.99 µA || 3.75 mA |
 | **SF8** || 113.2 ms | 11 bytů | 10 min | 96 zpráv || 143.9 ms | 22 bytů | 30 min | 48 zpráv || 17.77 s || 23.03 µA || 3.75 mA |
