@@ -203,25 +203,25 @@
 | **SHT40** | 32 bitů | Teplota + vlhkost |
 | **BMP390** | 24 bitů | Tlak |
 | **SEN62** | 64 bitů | Množství prachových částic (PM1.0, PM2.5, PM4.0, PM10.0) |
-| **WH-SP-WS01** | 8 bitů | Rychlost větru |
-| **HS-WH-SP-RG** | 8 bitů | Množství srážek |
+| **WH-SP-WS01** | 16 bitů | Rychlost větru |
+| **HS-WH-SP-RG** | 16 bitů | Množství srážek |
 | **ADC převodník** | 8 bitů | Kapacita baterie |
 
 > **Poznámky:** <br>
 >  [1] Hodnoty v tabulce udávají maximální velikost surových dat, data se budou ještě v MCU upravovat. Tabulka slouží pouze jako hrubý odhad worst case scénáře. <br><br>
 >  [2] U mechanických senzorů, tudíž srážkoměr a anenometr, budou odesílány hodnoty počtu jednotlivých sepnutí,které se následně zpracují na serveru. Tím se ušetří na množství potřebných bitů. <br><br>
->  [3] Maximální celkový přenos dat (payload) bude tudíž 160 bitů (20 bytů).
- 
-### **Přehled doby vysílání**
+>  [3] Maximální celkový přenos dat (payload) bude tudíž 176 bitů (22 bytů). 
 
-| Spreading Factor | Doba vysílání | Počet možných zpráv za 24h | Minimální interval mezi zprávami |
-| :--- | :--- | :--- |:--- |
-| **SF7** | 71.9 ms | 417 zpráv | 3 min a 30 s |
-| **SF8** | 133.6 ms | 224 zpráv | 6 min a 26 s |
-| **SF9** | 246.8 ms | 121 zpráv | 11 min a 54 s |
-| **SF10** | 452.6 ms | 66 zpráv | 21 min a 49 s |
-| **SF11** | 987.1 ms | 30 zpráv | 48 min |
-| **SF12** | 1810.4 ms | 16 zpráv | 1 hod a 30 min |
+### **Přehled harmonogramů vysílání**
+
+| Spreading Factor || Doba vysílání krátké zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h || Doba vysílání dlouhé zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h || Celková doba přenosu za den || Průměrná spotřeba rádia || Průměrná spotřeba senzorů |
+| :--- | :--- | :--- |:--- | :--- | :--- | :--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
+| **SF7** || 61.7 ms | 11 bytů | 5 min | 240 zpráv || 77.1 ms | 22 bytů | 30 min | 48 zpráv || 18.51 s || 23.99 µA || 3.75 mA |
+| **SF8** || 113.2 ms | 11 bytů | 10 min | 96 zpráv || 143.9 ms | 22 bytů | 30 min | 48 zpráv || 17.77 s || 23.03 µA || 3.75 mA |
+| **SF9** || 205.8 ms | 11 bytů | 15 min | 72 zpráv || 246.8 ms | 22 bytů | 60 min | 24 zpráv || 20.74 s || 28.75 µA || 1.88 mA |
+| **SF10** || 370.7 ms | 11 bytů | 30 min | 24 zpráv || 493.6 ms | 22 bytů | 60 min | 24 zpráv ||  20.74 s || 27.48 µA || 1.88 mA |
+| **SF11** || ~~823.3 ms~~ | ~~11 bytů~~ | ~~60 min~~ | ~~0 zpráv~~ || 987.1 ms | 22 bytů | 60 min | 24 zpráv || 23.69 s || 32.54 µA || 1.88 mA |
+| **SF12** || ~~1482.8 ms~~ | ~~11 bytů~~ | ~~90 min~~ | ~~0 zpráv~~ || 1810.4 ms | 22 bytů | 180 min | 14 zpráv || 25.35 s || 34.66 µA || 1.1 mA |
 
 https://www.thethingsnetwork.org/airtime-calculator <br>
 https://www.etsi.org/deliver/etsi_en/300200_300299/30022002/03.03.01_60/en_30022002v030301p.pdf
@@ -229,17 +229,4 @@ https://www.etsi.org/deliver/etsi_en/300200_300299/30022002/03.03.01_60/en_30022
 > **Poznámky:** <br>
 >  [1] Síť The Thing Network stanovuje denní limity na 30 sekund vysílacího času a maximálně 10 příchozích zpráv za den na jedno zařízení. <br><br>
 >  [2] Dle nařízení je také regulován duty cycle (poměr doby vysílání ku klidu) a to na maximální hodnotu 1%. <br><br>
->  [3] Počet zpráv a doba vysílání závisí primárně na SF (spreading factor). Změna velikosti dat (payload) nemá v porovnání s ním zásadní vliv, přesto je potřeba ji optimalizovat na minimum. <br><br>
->  [4] Tato tabulka znázorňuje worst case scénář, kdy se posílá maximální množství dat. <br><br>
->  [5] Z tabulky je očividné, že se bude muset pro každý SF zvolit odpovídající harmonogram odesílání. 
-
-### **Přehled harmonogramů vysílání**
-
-| Spreading Factor || Doba vysílání krátké zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h || Doba vysílání dlouhé zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h || Celková doba přenosu za den || Průměrná spotřeba rádia || Průměrná spotřeba senzorů |
-| :--- | :--- | :--- |:--- | :--- | :--- | :--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
-| **SF7** || 56.6 ms | 72 bitů | 5 min | 240 zpráv || 71.9 ms | 160 bitů | 30 min | 48 zpráv || 17.04 s || 23.99 µA || 3.75 mA |
-| **SF8** || 102.9 ms | 72 bitů | 10 min | 96 zpráv || 133.6 ms | 160 bitů | 30 min | 48 zpráv || 16.29 s || 23.03 µA || 3.75 mA |
-| **SF9** || 205.8 ms | 72 bitů | 15 min | 72 zpráv || 246.8 ms | 160 bitů | 60 min | 24 zpráv || 20.74 s || 28.75 µA || 1.88 mA |
-| **SF10** || 370.7 ms | 72 bitů | 30 min | 24 zpráv || 452.6 ms | 160 bitů | 60 min | 24 zpráv ||  19.76 s || 27.48 µA || 1.88 mA |
-| **SF11** || ~~741.4 ms~~ | ~~72 bitů~~ | ~~60 min~~ | ~~0 zpráv~~ || 987.1 ms | 160 bitů | 60 min | 24 zpráv || 23.69 s || 32.54 µA || 1.88 mA |
-| **SF12** || ~~1482.8 ms~~ | ~~72 bitů~~ | ~~90 min~~ | ~~0 zpráv~~ || 1810.4 ms | 160 bitů | 180 min | 14 zpráv || 25.35 s || 34.66 µA || 1.1 mA |
+>  [3] Počet zpráv a doba vysílání závisí primárně na SF (spreading factor). Změna velikosti dat (payload) nemá v porovnání s ním zásadní vliv, přesto je potřeba ji optimalizovat na minimum. 
