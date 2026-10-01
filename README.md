@@ -216,12 +216,12 @@
 
 | Spreading Factor || Doba vysílání krátké zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h || Doba vysílání dlouhé zprávy | Velikost odesílaných dat | Interval mezi zprávami | Počet možných zpráv za 24h || Celková doba přenosu za den || Průměrná denní spotřeba rádia || Průměrná denní spotřeba senzorů |
 | :--- | :--- | :--- |:--- | :--- | :--- | :--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
-| **SF7** || 61.7 ms | 11 bytů | 5 min | 240 zpráv || 77.1 ms | 22 bytů | 30 min | 48 zpráv || 18.51 s || 23.99 µA || 3.75 mA |
-| **SF8** || 113.2 ms | 11 bytů | 10 min | 96 zpráv || 143.9 ms | 22 bytů | 30 min | 48 zpráv || 17.77 s || 23.03 µA || 3.75 mA |
-| **SF9** || 205.8 ms | 11 bytů | 15 min | 72 zpráv || 246.8 ms | 22 bytů | 60 min | 24 zpráv || 20.74 s || 28.75 µA || 1.88 mA |
-| **SF10** || 370.7 ms | 11 bytů | 30 min | 24 zpráv || 493.6 ms | 22 bytů | 60 min | 24 zpráv ||  20.74 s || 27.48 µA || 1.88 mA |
-| **SF11** || ~~823.3 ms~~ | ~~11 bytů~~ | ~~60 min~~ | ~~0 zpráv~~ || 987.1 ms | 22 bytů | 60 min | 24 zpráv || 23.69 s || 32.54 µA || 1.88 mA |
-| **SF12** || ~~1482.8 ms~~ | ~~11 bytů~~ | ~~90 min~~ | ~~0 zpráv~~ || 1810.4 ms | 22 bytů | 180 min | 14 zpráv || 25.35 s || 34.66 µA || 1.1 mA |
+| **SF7** || 61.7 ms | 11 + 13  bytů | 5 min | 240 zpráv || 77.1 ms | 22 + 13 bytů | 30 min | 48 zpráv || 18.51 s || 23.99 µA || 3.75 mA |
+| **SF8** || 113.2 ms | 11 + 13 bytů | 10 min | 96 zpráv || 143.9 ms | 22 + 13 bytů | 30 min | 48 zpráv || 17.77 s || 23.03 µA || 3.75 mA |
+| **SF9** || 205.8 ms | 11 + 13 bytů | 15 min | 72 zpráv || 246.8 ms | 22 + 13 bytů | 60 min | 24 zpráv || 20.74 s || 28.75 µA || 1.88 mA |
+| **SF10** || 370.7 ms | 11 + 13 bytů | 30 min | 24 zpráv || 493.6 ms | 22 + 13 bytů | 60 min | 24 zpráv ||  20.74 s || 27.48 µA || 1.88 mA |
+| **SF11** || ~~823.3 ms~~ | ~~11 + 13 bytů~~ | ~~60 min~~ | ~~0 zpráv~~ || 987.1 ms | 22 + 13 bytů | 60 min | 24 zpráv || 23.69 s || 32.54 µA || 1.88 mA |
+| **SF12** || ~~1482.8 ms~~ | ~~11 + 13 bytů~~ | ~~90 min~~ | ~~0 zpráv~~ || 1810.4 ms | 22 + 13 bytů | 180 min | 14 zpráv || 25.35 s || 34.66 µA || 1.1 mA |
 
 https://www.thethingsnetwork.org/airtime-calculator <br>
 https://www.etsi.org/deliver/etsi_en/300200_300299/30022002/03.03.01_60/en_30022002v030301p.pdf
@@ -231,4 +231,5 @@ https://www.etsi.org/deliver/etsi_en/300200_300299/30022002/03.03.01_60/en_30022
 >  [2] Dle nařízení je také regulován duty cycle (poměr doby vysílání ku klidu) a to na maximální hodnotu 1%. <br><br>
 >  [3] Počet zpráv a doba vysílání závisí primárně na SF (spreading factor). Změna velikosti dat (payload) nemá v porovnání s ním zásadní vliv, přesto je potřeba ji optimalizovat na minimum. <br><br>
 >  [4] Krátká zpráva obsahuje data ze senzorů jasu, vlhkosti, teploty, rychlosti větru, srážek a aktuální kapacitu baterie meteostanice.<br><br>
->  [5] Dlouhá zpráva obsahuje totožné data jako krátká zpráva jenom jsou přidána ještě data ze senzoru prachových částic a tlaku.
+>  [5] Dlouhá zpráva obsahuje totožné data jako krátká zpráva jenom jsou přidána ještě data ze senzoru prachových částic a tlaku. <br><br>
+>  [6] K payload datů se příčítá velikost hlavičky 13 bitů.
