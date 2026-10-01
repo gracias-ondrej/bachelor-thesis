@@ -229,4 +229,6 @@ https://www.etsi.org/deliver/etsi_en/300200_300299/30022002/03.03.01_60/en_30022
 > **Poznámky:** <br>
 >  [1] Síť The Thing Network stanovuje denní limity na 30 sekund vysílacího času a maximálně 10 příchozích zpráv za den na jedno zařízení. <br><br>
 >  [2] Dle nařízení je také regulován duty cycle (poměr doby vysílání ku klidu) a to na maximální hodnotu 1%. <br><br>
->  [3] Počet zpráv a doba vysílání závisí primárně na SF (spreading factor). Změna velikosti dat (payload) nemá v porovnání s ním zásadní vliv, přesto je potřeba ji optimalizovat na minimum. 
+>  [3] Počet zpráv a doba vysílání závisí primárně na SF (spreading factor). Změna velikosti dat (payload) nemá v porovnání s ním zásadní vliv, přesto je potřeba ji optimalizovat na minimum. <br><br>
+>  [4] Krátká zpráva obsahuje data ze senzorů jasu, vlhkosti, teploty, rychlosti větru, srážek a aktuální kapacitu baterie meteostanice.<br><br>
+>  [5] Dlouhá zpráva obsahuje totožné data jako krátká zpráva jenom jsou přidána ještě data ze senzoru prachových částic a tlaku.
